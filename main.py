@@ -8,24 +8,36 @@ def main():
     load_dotenv()
     cpf = os.getenv("STUDEO_CPF")
     senha = os.getenv("STUDEO_SENHA")
-    # MUDANÇA 1: Lemos a variável com o caminho do driver do arquivo .env
     driver_path = os.getenv("EDGE_DRIVER_PATH")
 
-    # MUDANÇA 2: Verificamos se todas as três variáveis existem
     if not all([cpf, senha, driver_path]):
         print("Erro: Verifique se STUDEO_CPF, STUDEO_SENHA e EDGE_DRIVER_PATH estão no arquivo .env")
         return
 
-    # MUDANÇA 3: Passamos o caminho do driver ao criar o scraper
     scraper = StudeoScraper(driver_path=driver_path)
     login_success = scraper.login(cpf, senha)
 
     if login_success:
         print("\nLogin realizado com sucesso!")
+        
+        atividades_pendentes = scraper.checar_atividades_pendentes()
+        
+        atividades_com_prazo = [atv for atv in atividades_pendentes if atv["prazo"] != "N/A"]
+
+        if atividades_com_prazo:
+            print("\n--- ATIVIDADES PENDENTES ENCONTRADAS ---")
+            for atividade in atividades_com_prazo:
+                print(f"  Disciplina: {atividade['disciplina']}")
+                print(f"  Status: {atividade['status']}")
+                print(f"  Prazo: {atividade['prazo']}")
+                print("  ---------------------------------")
+        else:
+            print("\nÓtima notícia! Nenhuma atividade pendente encontrada.")
+
     else:
         print("\nFalha no processo de login.")
 
-    input("Pressione Enter para fechar o navegador...")
+    input("\nPressione Enter para fechar o navegador...")
     scraper.close()
 
 if __name__ == "__main__":
