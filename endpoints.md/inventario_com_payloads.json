@@ -1,0 +1,2513 @@
+[
+  {
+    "method": "POST",
+    "url": "https://studeoapi.unicesumar.edu.br/log-acesso-api-controller/api/evento/",
+    "calls": 21,
+    "statuses": {
+      "200": 21
+    },
+    "resource_types": {
+      "xhr": 21
+    },
+    "mime_types": {
+      "application/json": 21
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/log-acesso-api-controller/api/evento/"
+    ],
+    "req_payloads": [
+      {
+        "idSessao": {
+          "id": 866574440
+        },
+        "idTipoEvento": {
+          "dsTipoEvento": "LOGIN"
+        },
+        "idTipoConteudo": {
+          "dsTipoConteudo": "LOGIN"
+        },
+        "cdUsuario": "25023123-2",
+        "cdCurso": "PGO_CST_ADSIS",
+        "cdShortname": null,
+        "cdConteudo": null,
+        "cdTela": "LOGIN",
+        "cdItemTela": null,
+        "vlStatus": 1,
+        "dsRetorno": null
+      },
+      {
+        "idSessao": {
+          "id": 866574440
+        },
+        "idTipoEvento": {
+          "dsTipoEvento": "CLICOU"
+        },
+        "idTipoConteudo": {
+          "dsTipoConteudo": "SELEÇÃO DE USUÁRIOS"
+        },
+        "cdUsuario": "25023123-2",
+        "cdCurso": "PGO_CST_ADSIS",
+        "cdShortname": null,
+        "cdConteudo": null,
+        "cdTela": "ESCOLHA DE USUÁRIO",
+        "cdItemTela": "LOGOU COM USUÁRIO: 25050325-5",
+        "vlStatus": 1,
+        "dsRetorno": null
+      },
+      {
+        "idSessao": {
+          "id": 866605521
+        },
+        "idTipoEvento": {
+          "dsTipoEvento": "LOGIN"
+        },
+        "idTipoConteudo": {
+          "dsTipoConteudo": "LOGIN"
+        },
+        "cdUsuario": "25050325-5",
+        "cdCurso": "EGRAD_ADSIS",
+        "cdShortname": null,
+        "cdConteudo": null,
+        "cdTela": "LOGIN",
+        "cdItemTela": null,
+        "vlStatus": 1,
+        "dsRetorno": null
+      }
+    ],
+    "res_payloads": [
+      {
+        "id": 10008287024,
+        "idSessao": {
+          "id": 866605521,
+          "idFormaAcesso": null,
+          "cdUsuario": null,
+          "dsDispositivoAcesso": null,
+          "dsBrowser": null,
+          "vlLatitude": null,
+          "vlLongitude": null,
+          "token": null
+        },
+        "idTipoEvento": {
+          "id": 51,
+          "dsTipoEvento": "LOGIN"
+        },
+        "idTipoConteudo": {
+          "id": 46,
+          "dsTipoConteudo": "LOGIN"
+        },
+        "cdUsuario": "25050325-5",
+        "cdCurso": "EGRAD_ADSIS",
+        "cdShortname": null,
+        "cdConteudo": null,
+        "cdTela": "LOGIN",
+        "cdItemTela": null,
+        "vlStatus": 1,
+        "dsRetorno": null
+      },
+      {
+        "id": 10008287068,
+        "idSessao": {
+          "id": 866605521,
+          "idFormaAcesso": null,
+          "cdUsuario": null,
+          "dsDispositivoAcesso": null,
+          "dsBrowser": null,
+          "vlLatitude": null,
+          "vlLongitude": null,
+          "token": null
+        },
+        "idTipoEvento": {
+          "id": 1,
+          "dsTipoEvento": "ACESSO A TELA"
+        },
+        "idTipoConteudo": {
+          "id": 47,
+          "dsTipoConteudo": "HOME"
+        },
+        "cdUsuario": "25050325-5",
+        "cdCurso": "EGRAD_ADSIS",
+        "cdShortname": null,
+        "cdConteudo": null,
+        "cdTela": "Home EAD",
+        "cdItemTela": null,
+        "vlStatus": 1,
+        "dsRetorno": null
+      },
+      {
+        "id": 10008288966,
+        "idSessao": {
+          "id": 866605521,
+          "idFormaAcesso": null,
+          "cdUsuario": null,
+          "dsDispositivoAcesso": null,
+          "dsBrowser": null,
+          "vlLatitude": null,
+          "vlLongitude": null,
+          "token": null
+        },
+        "idTipoEvento": {
+          "id": 52,
+          "dsTipoEvento": "CLICOU"
+        },
+        "idTipoConteudo": {
+          "id": 19,
+          "dsTipoConteudo": "MENSAGERIA"
+        },
+        "cdUsuario": "25050325-5",
+        "cdCurso": "EGRAD_ADSIS",
+        "cdShortname": null,
+        "cdConteudo": null,
+        "cdTela": "TOPO - MENSAGERIA",
+        "cdItemTela": "ABRE FALE COM O MEDIADOR",
+        "vlStatus": 1,
+        "dsRetorno": null
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/time-info",
+    "calls": 17,
+    "statuses": {
+      "200": 17
+    },
+    "resource_types": {
+      "xhr": 17
+    },
+    "mime_types": {
+      "application/json": 17
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/time-info"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "datetime": "2026-02-26T20:55:21.841-0300",
+        "offset": -180,
+        "timezone": "-0300",
+        "timezoneId": "America/Sao_Paulo",
+        "timestamp": 1772150121841
+      },
+      {
+        "datetime": "2026-02-26T21:30:24.889-0300",
+        "offset": -180,
+        "timezone": "-0300",
+        "timezoneId": "America/Sao_Paulo",
+        "timestamp": 1772152224889
+      },
+      {
+        "datetime": "2026-02-26T21:35:25.282-0300",
+        "offset": -180,
+        "timezone": "-0300",
+        "timezoneId": "America/Sao_Paulo",
+        "timestamp": 1772152525282
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento/push",
+    "calls": 13,
+    "statuses": {
+      "200": 13
+    },
+    "resource_types": {
+      "xhr": 13
+    },
+    "mime_types": {
+      "application/json": 13
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento/push"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "list": [
+          {
+            "idConversa": 5012280,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5012313,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5016460,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5018696,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5021782,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          }
+        ],
+        "interval": null
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/curricular/false",
+    "calls": 8,
+    "statuses": {
+      "200": 8
+    },
+    "resource_types": {
+      "xhr": 8
+    },
+    "mime_types": {
+      "application/json": 8
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/curricular/false"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "tpMatricula": "MATRICULADO",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 312376,
+          "nmDisciplina": "GIRO EAD",
+          "cdShortname": "MDL_AC_7158",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "7158",
+          "cdTurma": "7158",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "MATRICULADO",
+          "tpDetalhe": "Não curricular",
+          "idDisciplina": 617013,
+          "nmDisciplina": "PREPARE-SE - PROFISSÃO (ANÁLISE E DESENVOLVIMENTO DE SISTEMAS)",
+          "cdShortname": "MDL_AC_19885",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "19885",
+          "cdTurma": "19885",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "MATRICULADO",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 788103,
+          "nmDisciplina": "AULA INAUGURAL 2026/51",
+          "cdShortname": "MDL_AC_26697",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26697",
+          "cdTurma": "26697",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 802026,
+          "nmDisciplina": "PROJETO DE ENSINO - PLÁGIO NÃO ROLA! SEJA O PROTAGONISTA DA SUA IDEIA (2) - 51/2026",
+          "cdShortname": "MDL_AC_26453",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26453",
+          "cdTurma": "26453",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 802053,
+          "nmDisciplina": "PROJETO DE ENSINO - CONSULTAS EM BASES DE DADOS UTILIZANDO LINGUAGEM SQL - 51/2026",
+          "cdShortname": "MDL_AC_26482",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26482",
+          "cdTurma": "26482",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 802239,
+          "nmDisciplina": "PROJETO DE ENSINO - EXTRAÇÃO DE BANCO DE DADOS - 51/2026",
+          "cdShortname": "MDL_AC_26672",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26672",
+          "cdTurma": "26672",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/auth-api-controller/api/rota-app/autorizacao",
+    "calls": 6,
+    "statuses": {
+      "200": 6
+    },
+    "resource_types": {
+      "xhr": 6
+    },
+    "mime_types": {
+      "application/json": 6
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/auth-api-controller/api/rota-app/autorizacao"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "access.login": true,
+        "app.nest.aluno.ambiente.negocia-dividas.index": true,
+        "app.nest.aluno.ambiente.acomp-curso.list": true,
+        "app.nest.admin.cpa.tag": true,
+        "app.forms.elements": true,
+        "app.nest.aluno.ambiente.servicos.list": true,
+        "app.nest.aluno.ambiente.material-digital-layout": true,
+        "app.nest.aluno.forum.forum": true,
+        "access.rules.imprime-boleto": true,
+        "app.nest.aluno.ambiente.eu-indico-painel.index-colaboradores": true,
+        "app.nest.aluno.ambiente.frequencia.list": true,
+        "app.nest.admin.cpa.resposta": true,
+        "app.nest.aluno.ambiente.carteirinha-online-ead.index": true,
+        "app.nest.aluno.ambiente.disciplina.view.detail": true,
+        "app": true,
+        "app.nest.aluno.ambiente.cobrancas-em-aberto.list": true,
+        "app.nest.aluno.ambiente.acordo-online.list": true,
+        "app.nest.aluno.ambiente.atividade-complementar-externa": true,
+        "app.nest.aluno.ambiente.atualizar-dados.list": true,
+        "app.nest.aluno.ambiente.financeiro.extrato": true,
+        "boxed": true,
+        "app.nest.aluno.ambiente.financeiro.cartao": true,
+        "app.nest.aluno.ambiente.agendamento-prova-digital.faq": true,
+        "app.nest.aluno.ambiente.financeiro.list": true,
+        "app.builder": true,
+        "app.nest.aluno.ambiente.arquivo-geral.list-folder": true,
+        "app.nest.aluno.ambiente.meu-papel-mundo.entenda-o-programa": true,
+        "app.nest.aluno.ambiente.debito-automatico.list": true,
+        "app.nest.aluno.ambiente.giro-ead.ambientecao-virtual": true,
+        "app.nest.aluno.forum.forum.topico": true,
+        "access": true,
+        "app.nest.aluno.ambiente.eu-indico-painel.index": true,
+        "app.nest.aluno.ambiente.ambientacao-studeo.tutorial": true,
+        "app.nest.aluno.ambiente.financeiro.pix-automatico": true,
+        "app.nest.aluno.forum.forum.topico.resposta.list": true,
+        "app.ui.progress": true,
+        "app.nest.aluno.integracao.open": true,
+        "app.nest.aluno.ambiente.financeiro.cartao-recorrencia": true,
+        "app.ui": true,
+        "access.rules.envio-documentacao-seed": true,
+        "app.nest.aluno.ambiente.minha-biblioteca.index": true,
+        "app.nest.admin.cpa.resposta.list": true,
+        "app.nest.aluno.ambiente.arquivo-geral.list": true,
+        "app.home": true,
+        "app.nest.admin.cpa.questionario.edit": true,
+        "app.nest.aluno.ambiente.agendamento-prova-digital.form": true,
+        "app.nest.aluno.ambiente.disciplina.view.agendamento-hibrido-form": true,
+        "app.nest.aluno.ambiente.meu-papel-mundo.alterar-escolha": true,
+        "app.nest.aluno.ambiente.giro-ead.duvidas-frequentes": true,
+        "app.nest.aluno.ambiente.boletim.list": true,
+        "app.nest.comum.controle-acesso.usuario.show": true,
+        "app.nest.aluno.ambiente.eu-indico-painel.index-blacklist": true,
+        "app.nest.admin.cpa.professores.list": true,
+        "app.nest.admin.cpa.questao.list": true,
+        "app.nest.admin.cpa.resposta.create": true,
+        "app.nest.aluno.ambiente.atualizar-dados": true,
+        "app.nest.aluno.ambiente.minhas-competencias.list": true,
+        "app.nest.aluno.ambiente.gsuite-apps.list": true,
+        "app.nest.admin.cpa.questionario.create": true,
+        "app.nest.aluno.ambiente.disciplina.view.arquivos": true,
+        "app.nest.aluno.ambiente.impressao-prova.list": true,
+        "app.nest.aluno.ava.sso": true,
+        "app.nest.admin.cpa.questao": true,
+        "app.ui.modals": true,
+        "app.nest.aluno.ambiente.pgtos-realizados.list": true,
+        "app.nest.aluno.ambiente.valorizza.layout": true,
+        "app.nest.aluno.ambiente.colacao.form": true,
+        "template-laboratorio-seguranca-privada": true,
+        "app.portlets": true,
+        "app.nest.aluno.ambiente.reemitir-boleto-vencido.list": true,
+        "app.forms.layouts": true,
+        "app.nest.aluno.forum.forum.topico.resposta.create": true,
+        "app.nest.aluno.ambiente.ambientacao-studeo.faq": true,
+        "app.ui.notifications": true,
+        "app.nest.aluno.ambiente.laboratorios.list": true,
+        "app.ui.sliders": true,
+        "app.nest.aluno.ambiente.sae-novo.list": true,
+        "app.nest.aluno.ambiente.sae-novo.view": true,
+        "app.nest.aluno.ambiente.diploma-digital.list": true,
+        "app.nest.aluno.ambiente.docs-assinatura.list": true,
+        "app.nest.aluno.ambiente.estagio.layout": true,
+        "app.layouts.columns": true,
+        "app.nest.admin.ambiente.meu-papel-mundo.entenda-o-programa": true,
+        "app.nest.aluno.ambiente.disciplina.view.forum.resposta.list": true,
+        "app.nest.aluno.ambiente.servicos-sydle.list": true,
+        "app.nest.aluno.ambiente.certificado-alunos-concluidos.list": true,
+        "app.nest.comum.controle-acesso": true,
+        "access.logout": true,
+        "app.nest.aluno.ambiente.carteirinha-online.index": true,
+        "app.nest.aluno.ambiente.material-digital": true,
+        "app.nest.admin.cpa.resposta.edit": true,
+        "app.nest.aluno.forum": true,
+        "app.nest.aluno.ambiente.cielo.list": true,
+        "app.nest.aluno.ambiente.competencias-profissiograficas.list": true,
+        "template-ambiente-supervisores-academicos": true,
+        "app.nest.aluno.ambiente.impressao-boleto.list": true,
+        "app.nest.aluno.ambiente.valorizza": true,
+        "app.nest": true,
+        "app.nest.aluno.ambiente.diploma-digital": true,
+        "app.nest.admin.cpa.tag.edit": true,
+        "app.nest.comum": true,
+        "app.nest.aluno.forum.forum.topico.resposta": true,
+        "app.nest.aluno.ambiente.servicos-sydle": true,
+        "app.nest.aluno.ambiente.validacao-documentacao-academica.list": true,
+        "app.nest.aluno.ambiente.docs-historico.list": true,
+        "app.nest.aluno.ambiente.solicitacao-servico.list": true,
+        "app.ui.nestables": true,
+        "app.nest.aluno.forum.forum.list": true,
+        "app.nest.aluno.ambiente.disciplina-pendente.list": true,
+        "app.nest.aluno.ambiente.validacao-especial-documento.list": true,
+        "app.nest.comum.controle-acesso.usuario.change-password": true,
+        "app.nest.admin.cpa.questao.edit": true,
+        "app.nest.aluno.ambiente.biblioteca-unicesumar.index": true,
+        "app.nest.aluno.ambiente.validacao-especial-documento": true,
+        "app.nest.aluno.ambiente.disciplina.view.aula-player": true,
+        "app.ui.treeview": true,
+        "app.nest.aluno.ava.sso-iframe": true,
+        "app.nest.aluno.ambiente.meu-papel-mundo.list": true,
+        "app.nest.aluno.ambiente.arquivo-geral.list-categoria": true,
+        "app.nest.aluno.ava": true,
+        "app.nest.aluno.ambiente.arquivo-geral.list-disciplina": true,
+        "app.nest.aluno.ambiente": true,
+        "app.nest.aluno.ambiente.disciplina.view.planopresencial": true,
+        "app.nest.comum.controle-acesso.usuario": true,
+        "app.nest.aluno.ambiente.disciplina.view.forum": true,
+        "app.nest.aluno.ambiente.acomp-curso": true,
+        "app.nest.aluno.ambiente.aceite": true,
+        "app.nest.aluno.ambiente.material-estudo-rec.list": true,
+        "access.rules.inspira-2021-docentes": true,
+        "app.nest.aluno.ambiente.financeiro.cartao-edit": true,
+        "app.nest.aluno.ambiente.disciplina.view.forum.list": true,
+        "app.nest.aluno.ambiente.cielo": true,
+        "app.nest.aluno.ambiente.sae-novo.create": true,
+        "app.nest.aluno.ambiente.declaracoes.list": true,
+        "app.nest.aluno.ambiente.laboratorios": true,
+        "app.nest.aluno.ava.open": true,
+        "app.forms": true,
+        "app.nest.aluno.ambiente.atividade-complementar-externa.list": true,
+        "app.index": true,
+        "app.nest.aluno.ambiente.sae-novo": true,
+        "app.nest.aluno.ambiente.estagio.instrucoes": true,
+        "app.nest.admin.cpa.tag.list": true,
+        "app.nest.aluno.ambiente.documentacao-academica.list": true,
+        "template-game-psicopedagogia": true,
+        "access.backdoor": true,
+        "app.nest.aluno.ambiente.disciplina.view.forum.resposta": true,
+        "app.nest.aluno.ambiente.ambientacao-studeo.list": true,
+        "app.nest.aluno.ambiente.duvidas-frequentes.list": true,
+        "app.nest.aluno.ambiente.ambientacao-studeo": true,
+        "app.nest.admin.cpa.questionario.list": true,
+        "app.forms.wizard": true,
+        "app.nest.aluno.ambiente.estagio": true,
+        "app.nest.aluno.ambiente.servicos": true,
+        "app.nest.aluno.ambiente.meu-papel-mundo-participe.form": true,
+        "app.nest.aluno.ambiente.historico": true,
+        "app.nest.aluno.ambiente.declaracoes": true,
+        "app.nest.admin.cpa.questionario": true,
+        "app.nest.aluno.ambiente.eventos-presenciais.list": true,
+        "app.nest.aluno.ambiente.solicitacao-servico-sydle.list": true,
+        "app.nest.aluno.ambiente.disciplina.view.questionario": true,
+        "app.nest.aluno.ambiente.certificado-parcial.list": true,
+        "app.nest.aluno.ambiente.giro-ead": true,
+        "app.nest.aluno.ambiente.colacao": true,
+        "app.nest.aluno.ambiente.frequencia-aula.list": true,
+        "app.nest.aluno.ambiente.solicitacao-servico-sydle": true,
+        "app.nest.aluno.ambiente.agendamento-prova-digital.list": true,
+        "app.ui.tabs": true,
+        "app.nest.aluno.ambiente.transacoes-cielo.list": true,
+        "app.nest.aluno.forum.forum.topico.resposta.edit": true,
+        "app.nest.aluno.ambiente.minhas-competencias": true,
+        "app.nest.aluno.ambiente.arquivo-geral": true,
+        "app.nest.aluno.ambiente.pgtos-realizados": true,
+        "app.nest.aluno.ambiente.disciplina": true,
+        "app.nest.aluno.ambiente.competencias-profissiograficas": true,
+        "app.nest.aluno.ambiente.disciplina.list-trilha-proficiencia": true,
+        "app.ui.buttons": true,
+        "app.nest.aluno.ambiente.eu-indico-painel.index-alunos": true,
+        "app.nest.aluno.ambiente.biblioteca-zbra.index": true,
+        "app.nest.aluno.ambiente.ambientacao-studeo.home": true,
+        "app.nest.aluno.ambiente.disciplina.list-palestras-outros": true,
+        "app.nest.aluno.ambiente.aceite.list": true,
+        "app.ui.typo": true,
+        "app.nest.aluno.integracao.sso": true,
+        "app.wait": true,
+        "app.nest.aluno.ambiente.meu-papel-mundo.acompanhamento": true,
+        "app.nest.aluno.ambiente.envio-documentacao-academica.list": true,
+        "app.nest.aluno.ambiente.painel-financeiro.index": true,
+        "app.aluno": true,
+        "app.nest.aluno.ambiente.disciplina.view": true,
+        "app.nest.aluno.ambiente.atividade-complementar.list": true,
+        "app.nest.aluno.ambiente.matriz-curricular.list": true,
+        "app.nest.aluno.ambiente.agendamento-prova-digital.anteriores": true,
+        "app.nest.aluno.ambiente.eu-indico-painel.acompanhamento": true,
+        "app.ui.icons": true,
+        "app.nest.aluno.ambiente.historico.list": true,
+        "app.nest.aluno.ambiente.disciplina.list": true,
+        "app.nest.aluno.ambiente.eu-indico.index": true,
+        "app.nest.admin.cpa.questao.create": true,
+        "app.nest.aluno.ambiente.estagio.faq": true,
+        "app.nest.admin.cpa.tag.create": true,
+        "app.nest.aluno.ambiente.financeiro.acordo": true,
+        "app.ui.color": true,
+        "app.nest.aluno": true
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/auth-api-controller/api/parametro/autorizacao",
+    "calls": 6,
+    "statuses": {
+      "200": 5,
+      "0": 1
+    },
+    "resource_types": {
+      "xhr": 6
+    },
+    "mime_types": {
+      "application/json": 4,
+      "x-unknown": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/auth-api-controller/api/parametro/autorizacao"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "PARAM_FORUM_NOTA_MAX": "40",
+        "PARAM_SISTEMA_RUBINHO": "700",
+        "PARAM_PERIODO_CONSULTA_PLANO_ESTUDO_GERAL": "7",
+        "PARAM_PAGINA_INICIAL_TEMPLATE_NAME": "template-aluno",
+        "QUESTIONARIO_VERIFICA_INADIMPLENCIA": "S",
+        "PARAM_ALUNO_FALE_MEDIADOR": "true",
+        "PARAM_BOTAO_VISUALIZAR_CERTIFICADO_CONCLUSAO": "true",
+        "PARAM_PERIODO_CONSULTA_PLANO_ESTUDO": "365",
+        "PARAM_NOTA_MAXIMA_TOPICO": "150",
+        "PARAM_CD_CURSO_VALORIZZA": "TODOS",
+        "PARAM_TEMPO_MAXIMO_EDICAO_RESPOSTA": "30",
+        "PARAM_BOTAO_VISUALIZAR_CALENDAR_DISCIPLINA": "false",
+        "PARAM_DISCIPLINA_ACOMPANHAMENTO": "false",
+        "PARAM_UNIDADE": "CESUMAR",
+        "QUESTIONARIO_VERIFICA_ELIGIBILIDADE": "N",
+        "UNICESUMAR_SERVIDOR_DOWNLOAD_2": "ON",
+        "UNICESUMAR_SERVIDOR_DOWNLOAD_1": "ON",
+        "PARAM_PERFIL_FALE_MEDIADOR": "FALSE",
+        "PARAM_CD_URL_VIDEO_VALORIZZA": "https://www.youtube.com/embed/gWjYbdkkyXs?si=RoTqConVXTjnT6DJ"
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://api-financial.vitru.com.br/api/rest/billing/method/renegotiation/{id}/LY_PGO_CST_ADSIS",
+    "calls": 6,
+    "statuses": {
+      "200": 5,
+      "0": 1
+    },
+    "resource_types": {
+      "xhr": 6
+    },
+    "mime_types": {
+      "application/json": 5,
+      "x-unknown": 1
+    },
+    "examples": [
+      "https://api-financial.vitru.com.br/api/rest/billing/method/renegotiation/25023123-2/LY_PGO_CST_ADSIS"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "type": "OLD"
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario-foto/{id}",
+    "calls": 6,
+    "statuses": {
+      "204": 4,
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 6
+    },
+    "mime_types": {
+      "text/plain": 4,
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario-foto/25023123-2",
+      "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario-foto/25050325-5"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "idUsuarioFoto": 20803240,
+        "cdUsuario": "25050325-5",
+        "idCentralAnexo": 20803240
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento/push?init",
+    "calls": 6,
+    "statuses": {
+      "200": 6
+    },
+    "resource_types": {
+      "xhr": 6
+    },
+    "mime_types": {
+      "application/json": 6
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento/push?init=true"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "list": [
+          {
+            "idConversa": 5012280,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5012313,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5016460,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5018696,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          },
+          {
+            "idConversa": 5021782,
+            "qtaMsg": 1,
+            "aviso": true,
+            "finalizada": false,
+            "solicitaFinalizar": false,
+            "mensagem": null
+          }
+        ],
+        "interval": 30000
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "url": "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/create",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/create"
+    ],
+    "req_payloads": [
+      {
+        "username": "80070107939",
+        "password": "Renann1."
+      },
+      {
+        "username": "25050325-5",
+        "password": "Renann1."
+      }
+    ],
+    "res_payloads": []
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/auth-api-controller/api/permissao/autorizacao",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/auth-api-controller/api/permissao/autorizacao"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "MENU_LATERAL_ALUNO_SERVICOS_ATUALIZAR_DADOS_CADASTRAIS": true,
+        "MENU_LATERAL_ALUNO_DIPLOMA_DIGITAL": true,
+        "MENU_LATERAL_CERTIFICADO_ALUNOS_CONCLUIDOS": true,
+        "MENU_LATERAL_ALUNO_BIBLIOTECAS_BIBLIOTECA_ZBRA": true,
+        "MENU_LATERAL_ALUNO_MEU_PAPEL_NO_MUNDO": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_DISCIPLINAS": true,
+        "MENU_LATERAL_ALUNO_GO_CALENDARIO_DE_ATIVIDADES": true,
+        "MENU_LATERAL_ALUNO_FINANCEIRO_TRANSACOES_CIELO": true,
+        "AP_ACESSAR_SEGUNDA_POSTAGEM": true,
+        "MENU_LATERAL_ALUNO_MATERIAL": true,
+        "MENU_LATERAL_ALUNO_GO_MINHA_ORGANIZACAO": true,
+        "EXIBE_TOUR_GUIADO": true,
+        "MENU_LATERAL_ALUNO_MATERIAL_MUNDO": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_PAINEL_FINANCEIRO": true,
+        "MENU_SUPERIOR_ATENDIMENTO": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_BOLETIM": true,
+        "MENU_LATERAL_ALUNO_FINANCEIRO_COBRANCAS_EM_ABERTO": true,
+        "MENU_LATERAL_ALUNO_PORTAL_VALORIZZA": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_DOCUMENTACAO_ACADEMICA": true,
+        "MENU_LATERAL_ALUNO_ESTAGIO_ORIGATORIO_REMUNERADO": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO": true,
+        "MENU_LATERAL_ALUNO_SERVICOS": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_DISCIPLINAS_PENDENTES": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_ANDAMENTO_SERVICOS": true,
+        "MENU_LATERAL_PAGINA_INICIAL": true,
+        "MENU_LATERAL_DOCS_ASSINATURA": true,
+        "EXIBE_REGRA_ASSINATURA_CONTRATO": true,
+        "MENU_LATERAL_ALUNO_MEU_PAPEL_NO_MUNDO_ENTENDA_O_PROGRAMA": true,
+        "AP_ACESSAR_PRIMEIRA_POSTAGEM": true,
+        "AP_ACESSAR_ENVIO_DOCUMENTO": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_HISTORICO": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_CAMPANHA_EU_INDICO": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_CERTIFICADO_PARCIAL": true,
+        "MENU_LATERAL_MEU_PAPEL_NO_MUNDO": true,
+        "MENU_LATERAL_ALUNO_GIRO_EAD_AMBIENTACAO_VIRTUAL": true,
+        "MENU_LATERAL_ALUNO_MINHAS_COMPETENCIAS": true,
+        "MENU_LATERAL_ALUNO_FINANCEIRO_GERAL": true,
+        "COMPONENTE_ACOMPANHAMENTO_EXTENSAO": true,
+        "MENU_LATERAL_ALUNO_BIBLIOTECAS_MINHA_BIBLIOTECA": true,
+        "MENU_LATERAL_ALUNO_FINANCEIRO_REEMITIR_BOLETO_VENCIDO": true,
+        "MENU_LATERAL_ALUNO_ESTAGIO": true,
+        "PORTAL_CONVENIO_ESTAGIO": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_SOLICITACAO_DE_SERVICOS": true,
+        "MENU_LATERAL_ALUNO_BIBLIOTECAS": true,
+        "MENU_SUPERIOR_ACOMPANHAMENTO_ATIVIDADES": true,
+        "MENU_LATERAL_ALUNO_EMPREGABILIDADE": true,
+        "MENU_LATERAL_ALUNO_OFFICE_365": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_CARTEIRINHA_ONLINE": true,
+        "MENU_LATERAL_ALUNO_ATENDIMENTO_ELETRONICO": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_ATIVIDADE_COMPLEMENTAR_EXTERNA": true,
+        "MENU_LATERAL_ALUNO_FINANCEIRO_IMPRESSAO_DE_BOLETOS": true,
+        "MENU_LATERAL_ALUNO_DEBITO_AUTOMATICO": true,
+        "MENU_LATERAL_ALUNO_ARQUIVOS_GERAIS": true,
+        "EXIBE_BANNER_INFORMATIVO_ENVIO_DOCUMENTACAO": true,
+        "MENU_LATERAL_ALUNO_FINANCEIRO_PGTOS_REALIZADOS": true,
+        "MENU_LATERAL_ALUNO_GIRO_EAD_DUVIDAS_FREQUENTES": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_SEGUNDA_OPORTUNIDADE_DE_PROVA": true,
+        "MENU_SUPERIOR_NOTIFICACAO": true,
+        "PRIMEIRO_ACESSO_ASSINATURA_CONTRATO": true,
+        "MENU_LATERAL_ALUNO_LABORATORIOS": true,
+        "MENU_LATERAL_ALUNO_COLACAO": true,
+        "MENU_LATERAL_ALUNO_GO_MINHAS_DIFICULDADES": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_ACOMPANHAMENTO_CURSO": true,
+        "MENU_LATERAL_ALUNO_CENTRAL_DE_AJUDA": true,
+        "MENU_LATERAL_ATIVIDADES_EXTENSAO": true,
+        "MENU_LATERAL_ALUNO_ATUALIZAR_DADOS_CADASTRAIS": true,
+        "MENU_LATERAL_ALUNO_COLACAO_DE_GRAU": true,
+        "MENU_LATERAL_ALUNO_PARTICIPE_MUNDO": true,
+        "MENU_LATERAL_ALUNO_AGENDAMENTO_PROVA_DIGITAL": true,
+        "MENU_LATERAL_ALUNO_BIBLIOTECA_DIGITAL_UNICESUMAR": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_DECLARACOES": true,
+        "MENU_LATERAL_ALUNO_SERVICOS_ACEITE": true,
+        "ACEITE_CONTRATO": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_MATRIZ_CURRICULAR": true,
+        "ATUALIZAR_SENHA_STUDEO": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_ATIVIDADE_COMPLEMENTAR": true,
+        "MENU_LATERAL_ALUNO_MEU_CURSO_FREQUENCIA_NAS_AULAS_AVA": true
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario-regra/existe-regra",
+    "calls": 4,
+    "statuses": {
+      "204": 2,
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "text/plain": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario-regra/existe-regra"
+    ],
+    "req_payloads": [],
+    "res_payloads": []
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario/info-login",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario/info-login"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "id": 2494641,
+        "cdUsuario": "25050325-5",
+        "nmUsuario": "Kauann Gabriel Shibuya",
+        "dsEmail": "RA250503255@EAD.CESUMAR.BR",
+        "dhUltimoAcesso": 1772150120322,
+        "nmPerfil": "ALUNO",
+        "curso": null,
+        "modalidade": null,
+        "cpf": "80070107939",
+        "unidadeAssociada": {
+          "id": 371,
+          "idUnidadeAssociada": 371,
+          "cdUnidadeEnsino": "EAD-GRAD",
+          "cdUnidadeFisica": "279",
+          "nmUnidade": "PONTA GROSSA - PR",
+          "tpUnidade": "Polo",
+          "tpPolo": "Premium",
+          "usuarioUnidadeAssociadaList": null
+        },
+        "cursoList": [
+          {
+            "nmCurso": "SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+            "cdCurso": "EGRAD_ADSIS"
+          }
+        ]
+      },
+      {
+        "id": 2494641,
+        "cdUsuario": "25050325-5",
+        "nmUsuario": "Kauann Gabriel Shibuya",
+        "dsEmail": "RA250503255@EAD.CESUMAR.BR",
+        "dhUltimoAcesso": 1772152221838,
+        "nmPerfil": "ALUNO",
+        "curso": null,
+        "modalidade": null,
+        "cpf": "80070107939",
+        "unidadeAssociada": {
+          "id": 371,
+          "idUnidadeAssociada": 371,
+          "cdUnidadeEnsino": "EAD-GRAD",
+          "cdUnidadeFisica": "279",
+          "nmUnidade": "PONTA GROSSA - PR",
+          "tpUnidade": "Polo",
+          "tpPolo": "Premium",
+          "usuarioUnidadeAssociadaList": null
+        },
+        "cursoList": [
+          {
+            "nmCurso": "SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+            "cdCurso": "EGRAD_ADSIS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "url": "https://studeoapi.unicesumar.edu.br/log-acesso-api-controller/api/sessao/",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/log-acesso-api-controller/api/sessao/"
+    ],
+    "req_payloads": [
+      {
+        "cdUsuario": "25023123-2",
+        "idFormaAcesso": {
+          "dsFormaAcesso": "WEB"
+        },
+        "dsBrowser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+        "vlLatitude": null,
+        "vlLongitude": null,
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTAyMzEyMy0yIiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyAtIFBSRVNFTkNJQUwifSwidHJzIjpmYWxzZSwiZW1sIjoic2hpYnV5YWthdWFubjdAZ21haWwuY29tIiwiaXRnIjp0cnVlLCJyb2wiOnsiTkVTVCI6WyJBTFVOTyAtIFBSRVNFTkNJQUwiXX0sImVtZyI6InNoaWJ1eWFrYXVhbm43QGdtYWlsLmNvbSJ9LCJpc3MiOiJORVNUIiwiZXhwIjoxNzcyMTYyNDc5LCJpYXQiOjE3NzIxNDgwNzl9.RzymSgaVPM3-E8akZeZkrFAQQs7n94pbZ-wtkQHy4nWOk66R0qmVwwi6LwSwT9M4fwld4NazXvq31OQJ-AkGULxN5WQXdNtRevoUU-esIbsq9VAqGC7u22hdYR6l_Zp_VU7QBveWhdRnKxYsX1mrwYy-6i0sDzEMzj05i9fEAM7jY09DRZdrwCWQDkn2atsT8Ug_cS3LzEuvIi3Q61gvioVEa25klYGmvZNmQanpQ-YfGcC5GYMILlJ5ZbspCpPrUK5RU_cl7VKxwL0zgJAFkeE-zMLz3kqvMNpPGK-yctu27yxrzPRGwGQz7XITbMDG8sXuIt61J6ZfelTy9zpxtg"
+      },
+      {
+        "cdUsuario": "25050325-5",
+        "idFormaAcesso": {
+          "dsFormaAcesso": "WEB"
+        },
+        "dsBrowser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+        "vlLatitude": null,
+        "vlLongitude": null,
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNjQ1MjIsImlhdCI6MTc3MjE1MDEyMn0.IUS61VgZtrVC3t61rvztIwOu0D4V1bl0kTrQFA9R8DM4MHNIZz6HoNRLPtKDHVWqT96UaGbiYQbEabrAS4DZ6roHHUWakXjM2ktkScRhl8sX051jUvQM7k34MSDcW8Vpb74cR3OFtBF90rSSSKIZ8nhqj88T1eSEcl6gUa2f5QoeDkSuSpIIAMXJT3GhmP72eET_hX1IjCg4qoyHibEiLgLoYPNfyBJnbBiabOkek1x3c6--7NtcMkv3VGaNkOs_SLJoQuycGnNvc0GC7YgH7vfnjisj8JeCUTE7mXv1iaep8OrhwnkGFGRExG_5ijroV4hpMw8YOdv1RNhHGYGuWA"
+      },
+      {
+        "cdUsuario": "25023123-2",
+        "idFormaAcesso": {
+          "dsFormaAcesso": "WEB"
+        },
+        "dsBrowser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+        "vlLatitude": null,
+        "vlLongitude": null,
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTAyMzEyMy0yIiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyAtIFBSRVNFTkNJQUwifSwidHJzIjpmYWxzZSwiZW1sIjoic2hpYnV5YWthdWFubjdAZ21haWwuY29tIiwiaXRnIjp0cnVlLCJyb2wiOnsiTkVTVCI6WyJBTFVOTyAtIFBSRVNFTkNJQUwiXX0sImVtZyI6InNoaWJ1eWFrYXVhbm43QGdtYWlsLmNvbSJ9LCJpc3MiOiJORVNUIiwiZXhwIjoxNzcyMTY2NjE2LCJpYXQiOjE3NzIxNTIyMTZ9.PCDbNOw3dEP6musbgULnB9yqUpHiwdLcEaBK4umCVjMGPDnlNNFM5HEqPPtMGzyxtMZNjs97U6ouP0Za95ng2mgWETbnwM4Ebh4whnbMEhWSbTe1-lf9mRN12NPaGbDzqoIl6Jk60H4qbxXJGs0Q9vxq87GArAYo2ZHr8n0JG1FCQ0vHMsNCQI1tbIkfSkyVKft_qvxAs668tcSlTCzsaI0iiqcMDc1vibyaZm8DFT-MTTxhLTTL0xlYKd2oeF6ZMEkpbNvXgYMg-QzLxmOZGkcSgyVg7dXqxQG-D56aWOz4R3IX9J8gRmT1VX9vw5rpbYqQbCpYdG9ynt49ur-H6g"
+      }
+    ],
+    "res_payloads": [
+      {
+        "id": 866605521,
+        "idFormaAcesso": {
+          "id": 2,
+          "dsFormaAcesso": "WEB"
+        },
+        "cdUsuario": "25050325-5",
+        "dsDispositivoAcesso": null,
+        "dsBrowser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+        "vlLatitude": null,
+        "vlLongitude": null,
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNjQ1MjIsImlhdCI6MTc3MjE1MDEyMn0.IUS61VgZtrVC3t61rvztIwOu0D4V1bl0kTrQFA9R8DM4MHNIZz6HoNRLPtKDHVWqT96UaGbiYQbEabrAS4DZ6roHHUWakXjM2ktkScRhl8sX051jUvQM7k34MSDcW8Vpb74cR3OFtBF90rSSSKIZ8nhqj88T1eSEcl6gUa2f5QoeDkSuSpIIAMXJT3GhmP72eET_hX1IjCg4qoyHibEiLgLoYPNfyBJnbBiabOkek1x3c6--7NtcMkv3VGaNkOs_SLJoQuycGnNvc0GC7YgH7vfnjisj8JeCUTE7mXv1iaep8OrhwnkGFGRExG_5ijroV4hpMw8YOdv1RNhHGYGuWA"
+      },
+      {
+        "id": 866629997,
+        "idFormaAcesso": {
+          "id": 2,
+          "dsFormaAcesso": "WEB"
+        },
+        "cdUsuario": "25050325-5",
+        "dsDispositivoAcesso": null,
+        "dsBrowser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+        "vlLatitude": null,
+        "vlLongitude": null,
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNjY2MjUsImlhdCI6MTc3MjE1MjIyNX0.wYALAHt7CiV2ublOppHU_p45oPLF0ZkqMNACUJoNCg7Nrvv6UzrYD5I1jjLNTWpEXuqEgz7_NAkdJ7VA9tgdvw2uvAPyNQv3shVINd7Df_nMY5xKFFjCCqC6BeITYf_qFv3_XyedOTypWM9kZuENdRzY51gnZ6KcpT9lqvoQ60g-h3gMHOdb2g3YljHIy6TYBoyoBvg-SSzAWGdwFQ8CPFJDp806poKu6wx_IcocoZYdSUC6xYtjfUDvkw5JM3L09FzBA6n6ZWVJ719x9Gf7CsGNuXJB30bhU7ArXKY0SwcIB_yelGxUo7isIbyIar3tGPU4B6n8VNbiX_wPwwFO3g"
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "url": "https://studeoapi.unicesumar.edu.br/log-acesso-api-controller/api/navegador-detalhe/",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/log-acesso-api-controller/api/navegador-detalhe/"
+    ],
+    "req_payloads": [
+      {
+        "idSessao": {
+          "id": 866574440
+        },
+        "dsBrowser": "Google Chrome or Chromium",
+        "dsIPAddress": "0.0.0.0"
+      },
+      {
+        "idSessao": {
+          "id": 866605521
+        },
+        "dsBrowser": "Google Chrome or Chromium",
+        "dsIPAddress": "0.0.0.0"
+      },
+      {
+        "idSessao": {
+          "id": 866629919
+        },
+        "dsBrowser": "Google Chrome or Chromium",
+        "dsIPAddress": "0.0.0.0"
+      }
+    ],
+    "res_payloads": [
+      {
+        "id": 677521526,
+        "idNavegadorDetalhe": 677521526,
+        "idSessao": {
+          "id": 866605521,
+          "idFormaAcesso": null,
+          "cdUsuario": null,
+          "dsDispositivoAcesso": null,
+          "dsBrowser": null,
+          "vlLatitude": null,
+          "vlLongitude": null,
+          "token": null
+        },
+        "dsBrowser": "Google Chrome or Chromium",
+        "dsIPAddress": "172.17.20.2",
+        "dhInsert": 1772150123915,
+        "dhUpdate": null
+      },
+      {
+        "id": 677539303,
+        "idNavegadorDetalhe": 677539303,
+        "idSessao": {
+          "id": 866629997,
+          "idFormaAcesso": null,
+          "cdUsuario": null,
+          "dsDispositivoAcesso": null,
+          "dsBrowser": null,
+          "vlLatitude": null,
+          "vlLongitude": null,
+          "token": null
+        },
+        "dsBrowser": "Google Chrome or Chromium",
+        "dsIPAddress": "172.17.20.5",
+        "dhInsert": 1772152227031,
+        "dhUpdate": null
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/internet-patrocinada/validar-acesso",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/internet-patrocinada/validar-acesso"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "flInternet": true,
+        "dsMensagem": "Ola aluno! Sua internet patrocinada está ativa."
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/portal-parceiro/grupo",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/portal-parceiro/grupo"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        "0"
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/active",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/active"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        "1"
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/controle-servico/ativa/BANNER/WEB",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/controle-servico/ativa/BANNER/WEB"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "responseStatus": "OK",
+        "responseMessage": null,
+        "entity": true
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/curricular/true",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/curricular/true"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Curricular",
+          "idDisciplina": 766981,
+          "nmDisciplina": "ANÁLISE E PROJETO ORIENTADO A OBJETOS",
+          "cdShortname": "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0026",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 51,
+          "cdDisciplina": "EGRAD_GRAD_080_0026",
+          "cdTurma": "26_EGRAD_ADSIS5E-51",
+          "flCurricular": true,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Curricular",
+          "idDisciplina": 770794,
+          "nmDisciplina": "MENTALIDADE CRIATIVA E EMPREENDEDORA",
+          "cdShortname": "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0523",
+          "flAtivo": true,
+          "dhLiberar": 1771844400000,
+          "ano": 2026,
+          "semestre": 51,
+          "cdDisciplina": "EGRAD_GRAD_080_0523",
+          "cdTurma": "26_EGRAD_ADSIS5E-51",
+          "flCurricular": true,
+          "flDestaque": false,
+          "flDigital": false
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/banner/active/homeBannerDisciplinas",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/banner/active/homeBannerDisciplinas"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "dhInsert": 1748867488183,
+          "dhUpdate": 1751457679523,
+          "dsBanner": "PREPARE-SE",
+          "dhInicio": 1748746800000,
+          "dhFim": 1782874740000,
+          "dsImagemWeb": "acc87654af83d997499bb549c8aaeafef7ee29a0714ad9a767f6847d27361e424265ff839dc035dcf07a9f512d6532387b6e840ae2efa7076e06475a73639c62.png",
+          "dsImagemApp": null,
+          "dsLink": null,
+          "dsLinkInterno": null,
+          "flAtivo": true,
+          "flFiltro": false,
+          "nmTipoBanner": "homeBannerDisciplinas",
+          "cdUser": "sophia.pipino",
+          "id": 1189
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/banner/search/active",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/banner/search/active"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "idBanner": 1510,
+          "dsBanner": "Alteração de CNPJ - GRAD. EAD",
+          "dsImagemWeb": "918cf4a8ff0f2b3d947047759fe0de4413bb235c6c678ac4d7c83e807a0c48bad1a67377f76c5c4d0d5578a37e9646e3a7141da07b33ea890311a59c205256c1.png",
+          "dsImagemApp": "11b537b3905374eab297031be09d84444225fb77441176758a15bce7eda7dee578168ca806b95ca08d05181eed27b5fd2c16ef226ac413f7035851a3d99773cb.png",
+          "dsLink": "https://www.unicesumar.edu.br/wp-content/uploads/2026/02/atualizacoes-administrativas-unicesumar.pdf"
+        },
+        {
+          "idBanner": 1512,
+          "dsBanner": "Divulgação do Programa Eu Indico - 2026",
+          "dsImagemWeb": "6f1842cd8abb5bab69fa64f49503631b022bf2a26777c4f3a00eb5557ad720fb91cdfa6a5a3e57905fee6911450ae66d28331b2c2ca7b53b545d4b3c78a0dfb7.png",
+          "dsImagemApp": "64498dcac4a4346fe9c589aee3b1a923c525393ad953426be5a3399f74f8a621a1c696607bc306bcb89b1b140903936535a819141f5bab2ef2dd99e44df51ad4.png",
+          "dsLink": null
+        },
+        {
+          "idBanner": 1524,
+          "dsBanner": "Banner rotativo Studeo | Programa Santander Top Espanha 2026",
+          "dsImagemWeb": "213a6922448cb36745c2542e5425d79efb7f0a32c88fe4f3d8a89e102c56307cb8a846b8eb57251b182cbfe9c91d20b4e97756d25f6e1782a0d32d99e8fe1027.png",
+          "dsImagemApp": "efd26adc8fe359311399dc9ff920de4578c687004aadb304216cc961fe422cb03fda0807a40ac349dd405873afe2135af19e631cc4c0561c90306bb90a0ef1f7.png",
+          "dsLink": "https://app.santanderopenacademy.com/pt-BR/program/santander-top-espana-2026?utm_source=Unicesumar&utm_medium=Divulgacao&utm_campaign=SOABR-TopEspana2026-Vitru"
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/iam-api-controller/api/usuario/quantidade-usuarios",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/iam-api-controller/api/usuario/quantidade-usuarios"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "cpf": "80070107939",
+        "qtdUsuario": "2"
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/objeto-ensino-api-controller/api/plano-estudo/disciplinas-usuario",
+    "calls": 4,
+    "statuses": {
+      "204": 2,
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "text/plain": 2,
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/objeto-ensino-api-controller/api/plano-estudo/disciplinas-usuario"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "dhInicial": 1771930800000,
+          "dhFinal": 1771988340000,
+          "dsPlanoDeEstudoTipoEvento": "Aula",
+          "dsPlanoDeEstudoSubTipoEvento": "AULA",
+          "dsPlanoDeEstudoTipoAlerta": "Aula",
+          "tpCor": "success",
+          "nmDisciplina": "MENTALIDADE CRIATIVA E EMPREENDEDORA",
+          "cdShortname": "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0523"
+        },
+        {
+          "dhInicial": 1772535600000,
+          "dhFinal": 1772593140000,
+          "dsPlanoDeEstudoTipoEvento": "Aula",
+          "dsPlanoDeEstudoSubTipoEvento": "AULA",
+          "dsPlanoDeEstudoTipoAlerta": "Aula",
+          "tpCor": "success",
+          "nmDisciplina": "MENTALIDADE CRIATIVA E EMPREENDEDORA",
+          "cdShortname": "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0523"
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/afazer",
+    "calls": 4,
+    "statuses": {
+      "200": 4
+    },
+    "resource_types": {
+      "xhr": 4
+    },
+    "mime_types": {
+      "application/json": 4
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/afazer"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "somaTotal": 70
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeo.unicesumar.edu.br/",
+    "calls": 3,
+    "statuses": {
+      "200": 3
+    },
+    "resource_types": {
+      "document": 3
+    },
+    "mime_types": {
+      "text/html": 3
+    },
+    "examples": [
+      "https://studeo.unicesumar.edu.br/"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      "<!DOCTYPE html> <html lang=\"pt-BR\" data-ng-app=\"app\" ng-strict-di ng-controller=\"AppCtrl\"> <head> <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\"/> <meta charset=\"utf-8\"/> <title ncy...",
+      "<!DOCTYPE html> <html lang=\"pt-BR\" data-ng-app=\"app\" ng-strict-di ng-controller=\"AppCtrl\"> <head> <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\"/> <meta charset=\"utf-8\"/> <title ncy..."
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeo.unicesumar.edu.br/{token}",
+    "calls": 3,
+    "statuses": {
+      "200": 3
+    },
+    "resource_types": {
+      "manifest": 3
+    },
+    "mime_types": {
+      "application/json": 3
+    },
+    "examples": [
+      "https://studeo.unicesumar.edu.br/manifest.e162e509.json"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "short_name": "Studeo",
+        "name": "STUDEO - SEU AMBIENTE VIRTUAL DE APRENDIZAGEM",
+        "icons": [
+          {
+            "src": "br/edu/unicesumar/web-angular-layout/src/pages/ico/s-48.0460f2e9.png",
+            "type": "image/png",
+            "sizes": "48x48"
+          },
+          {
+            "src": "br/edu/unicesumar/web-angular-layout/src/pages/ico/s-60.6c7f82a6.png",
+            "type": "image/png",
+            "sizes": "60x60"
+          },
+          {
+            "src": "br/edu/unicesumar/web-angular-layout/src/pages/ico/s-76.d6abc4aa.png",
+            "type": "image/png",
+            "sizes": "76x76"
+          },
+          {
+            "src": "br/edu/unicesumar/web-angular-layout/src/pages/ico/s-96.3f6c3819.png",
+            "type": "image/png",
+            "sizes": "96x96"
+          },
+          {
+            "src": "br/edu/unicesumar/web-angular-layout/src/pages/ico/s-120.01e11797.png",
+            "type": "image/png",
+            "sizes": "120x120"
+          },
+          {
+            "src": "br/edu/unicesumar/web-angular-layout/src/pages/ico/s-152.bd137ddf.png",
+            "type": "image/png",
+            "sizes": "152x152"
+          },
+          {
+            "src": "br/edu/unicesumar/web-angular-layout/src/pages/ico/s-192.bd4e2ceb.png",
+            "type": "image/png",
+            "sizes": "192x192"
+          }
+        ],
+        "start_url": "/",
+        "theme_color": "#009cad",
+        "background_color": "#00dbf2"
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/servicos/dados-cadastrais",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/servicos/dados-cadastrais"
+    ],
+    "req_payloads": [],
+    "res_payloads": []
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario/usuarios/{id}",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario/usuarios/80070107939"
+    ],
+    "req_payloads": [],
+    "res_payloads": []
+  },
+  {
+    "method": "POST",
+    "url": "https://api-areasegura.vitru.com.br/security/check",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://api-areasegura.vitru.com.br/security/check"
+    ],
+    "req_payloads": [
+      {
+        "username": "80070107939",
+        "birthDay": "05/05/2007"
+      }
+    ],
+    "res_payloads": []
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/vem-comigo/permissao",
+    "calls": 2,
+    "statuses": {
+      "204": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "text/plain": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/vem-comigo/permissao"
+    ],
+    "req_payloads": [],
+    "res_payloads": []
+  },
+  {
+    "method": "POST",
+    "url": "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/renew",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/renew"
+    ],
+    "req_payloads": [
+      {
+        "refreshToken": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNzE3MjAsImlhdCI6MTc3MjE1MDEyMH0.yIgtM1TPj_cYbOUaPFaMhmVOownHNzJ4oZHKxUS2yd24Ho_iNNudnuohxuOtPSwaWhoJPyvQuSYXuRK8lDxhgCZPVbSfHe4Bc86BnHBrcjsz38eHzmPWYz1GxuQ0m740-tbMOX0UTJG6NseHzuFo4c8yWQHZGdcdHEz1YHOikV1xk9uSV5N0vbzabJYva0Dp5ZnEW8u56qYfhL4zW_JQV-T1_538q39rlgl0MGwxFB9HQFcL-n8fcgzfuaUQE4oVmImIQ7MkQbfpU2JtcC43B_xcqmJTP05aTUs_x1ptkYAmPxGZbhBa-hsjm53ZJUJvJ-LOYoGaV1N-HKIEU6aA7Q"
+      },
+      {
+        "refreshToken": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNzM4MjEsImlhdCI6MTc3MjE1MjIyMX0.RO0Z2ncgeZXeRp1uu6HiPs0_1RcAPHrati229oyutISqS0wC_l491TJQQ6029rl-t8-ZhCdmvs0E_QzW3qZqdwW6VuoHtInKQ8nsSeY5xZY0nQS4bLR3KJevgpNRjjSg-mgYtCbxZwDnJD0djycIzTwn3pG-7An3INCrEJ6H5vu43NTJs45kIVTHMKdXbtwBG9y3IqwNaNaNojfbkRWj_W8IyCFETcD4AogRHf-oKoocwYmzWribGaRjfnQFBGlBMG2flR3qhVu6xXsWAZr18cCyzyFTzExrriPpAWTSM5Ib8XQUMNgtLCJLjaPLCEccPv5Wp-YCFDD8u8R6rFFqWA"
+      }
+    ],
+    "res_payloads": [
+      {
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNjQ1MjIsImlhdCI6MTc3MjE1MDEyMn0.IUS61VgZtrVC3t61rvztIwOu0D4V1bl0kTrQFA9R8DM4MHNIZz6HoNRLPtKDHVWqT96UaGbiYQbEabrAS4DZ6roHHUWakXjM2ktkScRhl8sX051jUvQM7k34MSDcW8Vpb74cR3OFtBF90rSSSKIZ8nhqj88T1eSEcl6gUa2f5QoeDkSuSpIIAMXJT3GhmP72eET_hX1IjCg4qoyHibEiLgLoYPNfyBJnbBiabOkek1x3c6--7NtcMkv3VGaNkOs_SLJoQuycGnNvc0GC7YgH7vfnjisj8JeCUTE7mXv1iaep8OrhwnkGFGRExG_5ijroV4hpMw8YOdv1RNhHGYGuWA",
+        "refreshToken": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNzE3MjIsImlhdCI6MTc3MjE1MDEyMn0.LIjvrEb_ZIEJm7xH6GIro-LnyPcAa8EpF2P9AQraPlQ3jWcxH_I6tJJB9nhwYYJKoKCcYmkWvjAgKvRzuoOcXh2Nq2vGOylNgE8T-yKx2FZNEycJ7sfn_jF-L47LpMb27_GE5nqsHalQuz1hB1zUQwn4WxkDY3qPUUQQRiMhQaVRj5QWyjoB2NJG1BJfKC4lUhf9MjZ-4fyVO5EO-EU7oO-CMTIsrbYHX341GOgQ0sB-94JOPBJloNBjebtM8KPKD0aX-p_9vN1aJ872xKKls6n6s3Tlbg63ojZJaopqDfAlmP3TErx3KiM02yCCAupbEDtWkLOaj_jLLAhA5RhV2Q"
+      },
+      {
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNjY2MjUsImlhdCI6MTc3MjE1MjIyNX0.wYALAHt7CiV2ublOppHU_p45oPLF0ZkqMNACUJoNCg7Nrvv6UzrYD5I1jjLNTWpEXuqEgz7_NAkdJ7VA9tgdvw2uvAPyNQv3shVINd7Df_nMY5xKFFjCCqC6BeITYf_qFv3_XyedOTypWM9kZuENdRzY51gnZ6KcpT9lqvoQ60g-h3gMHOdb2g3YljHIy6TYBoyoBvg-SSzAWGdwFQ8CPFJDp806poKu6wx_IcocoZYdSUC6xYtjfUDvkw5JM3L09FzBA6n6ZWVJ719x9Gf7CsGNuXJB30bhU7ArXKY0SwcIB_yelGxUo7isIbyIar3tGPU4B6n8VNbiX_wPwwFO3g",
+        "refreshToken": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNzM4MjUsImlhdCI6MTc3MjE1MjIyNX0.mfAz4AxHG5C7Y0y0WgFfmuxWx0KsK96yhFr2YKOQu-DYC3oPgCqwEFPl4JrbjAtJKnv9fJpsx9ynoGIGoWiV12teD3hz5OuVt9Z7_oGDvRvgwGbEeCzFms8dejEeq1GTw1iRiVo7dZ0YQn9CDJvB5odalxRKo-cOUwINo9z4R0QoVu-18mkMX3ihfscprEwV4H0fHgGjIXfkmEzmqqhXUPGtVqjEJ13d_9s6_DafXl5fJFtzJ3KYp5Ak052bUBFEm_XhnnvYDxopFSFNdMXMFyBOhXSzBA2Lo7nRk1zozKGHABPR-VRT1biDW3aiYUCrSywvNxtaAI3a7SLmA9g9ig"
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario-regra",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/controle-acesso-api-controller/api/usuario-regra"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "id": 91798479,
+          "idUsuarioRegra": 91798479,
+          "usuario": {
+            "id": 2494641,
+            "nmUsuario": "Kauann Gabriel Shibuya",
+            "cdUsuario": "25050325-5",
+            "dhInsert": 1732349560695,
+            "dhUpdate": 1764569372981
+          },
+          "regra": {
+            "id": 178,
+            "cdRegra": "QUIZ_NPS_25_SEMESTRE2_2",
+            "nmRegra": "Pesquisa de Satisfação",
+            "flAtivo": true,
+            "dsMensagem": "<figure><img src=\"https://studeostatic.unicesumar.edu.br/mural-aviso/bd80356fab320f424bef9a23602c48f2e3c46c29c1adb668e362236b38f60c0f084b371e99462bb19871f92c3d515344b9c3b85ed33a72cac5df5a16c2e92b3f.png\" title=\"d\" alt=\"d\"></figure>",
+            "dsUrl": "access.rules.quiz-nps",
+            "tpRegra": "REGRA_NAO_BLOQUEANTE",
+            "dhInsert": 1760640436835,
+            "dhUpdate": 1763564401046,
+            "cdPrioridade": "ALTA",
+            "flPeriodoAtivo": true,
+            "dhPeriodoInicial": 1760929200000,
+            "dhPeriodoFinal": 1763550000000,
+            "dsConfigPeriodo": "{\"flSegunda\":true,\"flTerca\":true,\"flQuarta\":true,\"flQuinta\":true,\"flSexta\":true,\"flSabado\":true,\"flDomingo\":true,\"startTime\":{\"flSegunda\":\"2025-10-16T03:00:00.000Z\",\"flTerca\":\"2025-10-16T03:00:00.000Z\",\"flQuarta\":\"2025-10-16T03:00:00.000Z\",\"flQuinta\":\"2025-10-16T03:00:00.000Z\",\"flSexta\":\"2025-10-16T03:00:00.000Z\",\"flSabado\":\"2025-10-16T03:00:00.000Z\",\"flDomingo\":\"2025-10-16T03:00:00.000Z\"},\"endTime\":{\"flSegunda\":\"2025-10-17T02:59:00.000Z\",\"flTerca\":\"2025-10-17T02:59:00.000Z\",\"flQuarta\":\"2025-10-17T02:59:00.000Z\",\"flQuinta\":\"2025-10-17T02:59:00.000Z\",\"flSexta\":\"2025-10-17T02:59:00.000Z\",\"flSabado\":\"2025-10-17T02:59:00.000Z\",\"flDomingo\":\"2025-10-17T02:59:00.000Z\"}}",
+            "parametroRegraList": [
+              {
+                "id": 246,
+                "nmParametro": "opcoes",
+                "vlParametro": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+                "idRegra": {
+                  "id": 178
+                }
+              },
+              {
+                "id": 247,
+                "nmParametro": "pergunta",
+                "vlParametro": "Em uma escala de 0 a 10, considerando a sua experiência, qual a probabilidade de você indicar a UniCesumar a um familiar ou amigo?",
+                "idRegra": {
+                  "id": 178
+                }
+              },
+              {
+                "id": 248,
+                "nmParametro": "textoDescricao",
+                "vlParametro": "Como podemos melhorar a sua jornada conosco? Deixe aqui a sua sugestão, elogio ou comentário.",
+                "idRegra": {
+                  "id": 178
+                }
+              },
+              {
+                "id": 249,
+                "nmParametro": "textoMinProb",
+                "vlParametro": "Nada provável",
+                "idRegra": {
+                  "id": 178
+                }
+              },
+              {
+                "id": 250,
+                "nmParametro": "txtMaxProb",
+                "vlParametro": "Extremamente provável",
+                "idRegra": {
+                  "id": 178
+                }
+              },
+              {
+                "id": 251,
+                "nmParametro": "indExibeBannerNps",
+                "vlParametro": "S",
+                "idRegra": {
+                  "id": 178
+                }
+              },
+              {
+                "id": 252,
+                "nmParametro": "urlBanner",
+                "vlParametro": "https://studeostatic.unicesumar.edu.br/mural-aviso/88c84e640cfcda09fcfd951ccd653e2db8eb155639afd4d8aad99d850d0fb11906fab3193aba8b65f01551310437dec08a5c41b48a498d26fe8a3440ef6a2f25.png",
+                "idRegra": {
+                  "id": 178
+                }
+              },
+              {
+                "id": 253,
+                "nmParametro": "indRemoveRegraAposPesquisa",
+                "vlParametro": "S",
+                "idRegra": {
+                  "id": 178
+                }
+              }
+            ],
+            "parametroRegraHash": {
+              "textoDescricao": "Como podemos melhorar a sua jornada conosco? Deixe aqui a sua sugestão, elogio ou comentário.",
+              "pergunta": "Em uma escala de 0 a 10, considerando a sua experiência, qual a probabilidade de você indicar a UniCesumar a um familiar ou amigo?",
+              "txtMaxProb": "Extremamente provável",
+              "urlBanner": "https://studeostatic.unicesumar.edu.br/mural-aviso/88c84e640cfcda09fcfd951ccd653e2db8eb155639afd4d8aad99d850d0fb11906fab3193aba8b65f01551310437dec08a5c41b48a498d26fe8a3440ef6a2f25.png",
+              "indRemoveRegraAposPesquisa": "S",
+              "opcoes": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+              "textoMinProb": "Nada provável",
+              "indExibeBannerNps": "S"
+            }
+          },
+          "flAtivo": true,
+          "dhInsert": 1760649083506,
+          "dhUpdate": null
+        },
+        {
+          "id": 92253565,
+          "idUsuarioRegra": 92253565,
+          "usuario": {
+            "id": 2494641,
+            "nmUsuario": "Kauann Gabriel Shibuya",
+            "cdUsuario": "25050325-5",
+            "dhInsert": 1732349560695,
+            "dhUpdate": 1764569372981
+          },
+          "regra": {
+            "id": 182,
+            "cdRegra": "CPA_118",
+            "nmRegra": "CPA EAD - Módulo 54",
+            "flAtivo": true,
+            "dsMensagem": "<p><br><br><span>Ol&#225;, aluno(a)!<br><br><br><br><br><br>Chegou a hora de realizar a pesquisa de autoavalia&#231;&#227;o institucional (CPA) de 2025.<br><br><br><br><br><br>Nesse momento, queremos saber sua opini&#227;o com rela&#231;&#227;o ao M&#243;dulo atual. Isso ajudar&#225; ainda mais a nossa institui&#231;&#227;o a promover melhorias na qualidade.<br><br><br><br><br>Fique atento! &#201; permitido responder ao question&#225;rio uma &#250;nica vez no per&#237;odo de 19/11 a /05/12<br><br><br><br><br><br>Todas as perguntas s&#227;o obrigat&#243;rias. Importante: suas respostas ser&#227;o tratadas de forma totalmente an&#244;nima.<br><br><br><br><br>Caso considere que ainda n&#227;o possui informa&#231;&#245;es suficientes para responder OU que a afirma&#231;&#227;o n&#227;o se aplica ao contexto que vivencia na gradua&#231;&#227;o, assinale a alternativa &#8220;N&#227;o se aplica&#8221;.</span><br><br></p>",
+            "dsUrl": "access.rules.cpa-redireciona",
+            "tpRegra": "REGRA_NAO_BLOQUEANTE",
+            "dhInsert": 1763484655408,
+            "dhUpdate": null,
+            "cdPrioridade": "BAIXA",
+            "flPeriodoAtivo": true,
+            "dhPeriodoInicial": 1763434800000,
+            "dhPeriodoFinal": 1764903600000,
+            "dsConfigPeriodo": null,
+            "parametroRegraList": [],
+            "parametroRegraHash": {}
+          },
+          "flAtivo": true,
+          "dhInsert": 1763484776267,
+          "dhUpdate": null
+        },
+        {
+          "id": 89711066,
+          "idUsuarioRegra": 89711066,
+          "usuario": {
+            "id": 2494641,
+            "nmUsuario": "Kauann Gabriel Shibuya",
+            "cdUsuario": "25050325-5",
+            "dhInsert": 1732349560695,
+            "dhUpdate": 1764569372981
+          },
+          "regra": {
+            "id": 176,
+            "cdRegra": "CPA_110",
+            "nmRegra": "CPA EAD - Módulo 53",
+            "flAtivo": true,
+            "dsMensagem": "<p>Ol&#225;, aluno(a)!<br><br><br><br><br>Chegou a hora de realizar a pesquisa de autoavalia&#231;&#227;o institucional (CPA) de 2025.<br><br><br><br><br>Nesse momento, queremos saber sua opini&#227;o com rela&#231;&#227;o ao M&#243;dulo atual. Isso ajudar&#225; ainda mais a nossa institui&#231;&#227;o a promover melhorias na qualidade.<br><br><br><br>Fique atento! &#201; permitido responder ao question&#225;rio uma &#250;nica vez no per&#237;odo de 04/09 a 21/09.<br><br><br><br><br>Todas as perguntas s&#227;o obrigat&#243;rias. Importante: suas respostas ser&#227;o tratadas de forma totalmente an&#244;nima.<br><br><br><br>Caso considere que ainda n&#227;o possui informa&#231;&#245;es suficientes para responder OU que a afirma&#231;&#227;o n&#227;o se aplica ao contexto que vivencia na gradua&#231;&#227;o, assinale a alternativa &#8220;N&#227;o se aplica&#8221;.<br></p>",
+            "dsUrl": "access.rules.cpa-redireciona",
+            "tpRegra": "REGRA_NAO_BLOQUEANTE",
+            "dhInsert": 1756934156724,
+            "dhUpdate": null,
+            "cdPrioridade": "BAIXA",
+            "flPeriodoAtivo": true,
+            "dhPeriodoInicial": 1756976400000,
+            "dhPeriodoFinal": 1758506400000,
+            "dsConfigPeriodo": null,
+            "parametroRegraList": [],
+            "parametroRegraHash": {}
+          },
+          "flAtivo": true,
+          "dhInsert": 1756934289415,
+          "dhUpdate": null
+        },
+        {
+          "id": 89644817,
+          "idUsuarioRegra": 89644817,
+          "usuario": {
+            "id": 2494641,
+            "nmUsuario": "Kauann Gabriel Shibuya",
+            "cdUsuario": "25050325-5",
+            "dhInsert": 1732349560695,
+            "dhUpdate": 1764569372981
+          },
+          "regra": {
+            "id": 175,
+            "cdRegra": "CPA_109",
+            "nmRegra": "CPA EAD - AGOSTO DE 2025",
+            "flAtivo": true,
+            "dsMensagem": "<p>Ol&#225;, aluno(a)!<br><br><br><br><br>Chegou a hora de realizar a pesquisa de autoavalia&#231;&#227;o institucional (CPA) de 2025.<br><br><br><br><br>Nesse momento, queremos saber sua opini&#227;o com rela&#231;&#227;o ao M&#243;dulo atual. Isso ajudar&#225; ainda mais a nossa institui&#231;&#227;o a promover melhorias na qualidade.<br><br><br><br>Fique atento! &#201; permitido responder ao question&#225;rio uma &#250;nica vez no per&#237;odo de 29/08 a 12/09.<br><br><br><br><br>Todas as perguntas s&#227;o obrigat&#243;rias. Importante: suas respostas ser&#227;o tratadas de forma totalmente an&#244;nima.<br><br><br><br>Caso considere que ainda n&#227;o possui informa&#231;&#245;es suficientes para responder OU que a afirma&#231;&#227;o n&#227;o se aplica ao contexto que vivencia na gradua&#231;&#227;o, assinale a alternativa &#8220;N&#227;o se aplica&#8221;.<br></p>",
+            "dsUrl": "access.rules.cpa-redireciona",
+            "tpRegra": "REGRA_NAO_BLOQUEANTE",
+            "dhInsert": 1756414428260,
+            "dhUpdate": null,
+            "cdPrioridade": "BAIXA",
+            "flPeriodoAtivo": true,
+            "dhPeriodoInicial": 1756458000000,
+            "dhPeriodoFinal": 1756857600000,
+            "dsConfigPeriodo": null,
+            "parametroRegraList": [],
+            "parametroRegraHash": {}
+          },
+          "flAtivo": true,
+          "dhInsert": 1756414448951,
+          "dhUpdate": null
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/servico-dp-especial/",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/lyceum-api-controller/api/servico-dp-especial/"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      []
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/central-anexo-api-controller/api/anexo/findBy/{id}",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/central-anexo-api-controller/api/anexo/findBy/20803240"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      {
+        "id": 20803240,
+        "nmOriginalArquivo": "IMG_2057.jpg",
+        "dsPath": "arquivo-geral",
+        "cdHash": "f869cf0d69209ad57ae9d433d6a4c8e5cdf423aad34e5aa2bfc2541680f6c90847fdf124fdf592921f3b09faef622914802a31068d4d1cdb2e048773328db95b",
+        "tamanhoArquivo": "0",
+        "cdExtensao": "jpg",
+        "dhInsert": 1750533395691,
+        "dhUpdate": null
+      }
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/6f1842cd8abb5bab69fa64f49503631b022bf2a26777c4f3a00eb5557ad720fb91cdfa6a5a3e57905fee6911450ae66d28331b2c2ca7b53b545d4b3c78a0dfb7.png/{token}",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "image": 2
+    },
+    "mime_types": {
+      "image/png": 2
+    },
+    "examples": [
+      "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/6f1842cd8abb5bab69fa64f49503631b022bf2a26777c4f3a00eb5557ad720fb91cdfa6a5a3e57905fee6911450ae66d28331b2c2ca7b53b545d4b3c78a0dfb7.png/eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzdWIiOiJqYXZhX2FwaV9jb250ZXVkb19uZXN0IiwiaWF0IjoxNTAxMjY5NDc5LCJleHAiOjI0NDczNDk0Nzl9.pHS0ftTRrtEtB-iUKKMaIJX8-6DutLn5zpalZYipC_upQIoCgWF165JeTcC5q568vH86zcoqOcs2CI6mmpfnMQ"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0001\t\b\u0002\u0000\u0000\u00001n\u0000\u0001d\u0015IDATx콉{UU[n]..@ڪr.\u0007\u0012E\u001c\u0018EQ\u0001\u0014Pf\bL\u0001\u0019\u0004\"C\u0018d\baL\u0000$L2  NrwZ{}νͳ\u001e\u0010B{9}>rw\u0001d\u001eD\u0016Sw\u000f!0=?`M?;\u001e'w>f[;6qb~Fԫ_;\r\u0004)84q?\f'k揁S4}ZzL=-S/*_ɾ7Yi%[{@\u001bj\u001el+OCޟ_疿\u0017z7<\nLΣ/g?7Y*ONp\u001buƝd7KVӮbr\r'4...",
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0001\t\b\u0002\u0000\u0000\u00001n\u0000\u0001d\u0015IDATx콉{UU[n]..@ڪr.\u0007\u0012E\u001c\u0018EQ\u0001\u0014Pf\bL\u0001\u0019\u0004\"C\u0018d\baL\u0000$L2  NrwZ{}νͳ\u001e\u0010B{9}>rw\u0001d\u001eD\u0016Sw\u000f!0=?`M?;\u001e'w>f[;6qb~Fԫ_;\r\u0004)84q?\f'k揁S4}ZzL=-S/*_ɾ7Yi%[{@\u001bj\u001el+OCޟ_疿\u0017z7<\nLΣ/g?7Y*ONp\u001buƝd7KVӮbr\r'4..."
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/213a6922448cb36745c2542e5425d79efb7f0a32c88fe4f3d8a89e102c56307cb8a846b8eb57251b182cbfe9c91d20b4e97756d25f6e1782a0d32d99e8fe1027.png/{token}",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "image": 2
+    },
+    "mime_types": {
+      "image/png": 2
+    },
+    "examples": [
+      "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/213a6922448cb36745c2542e5425d79efb7f0a32c88fe4f3d8a89e102c56307cb8a846b8eb57251b182cbfe9c91d20b4e97756d25f6e1782a0d32d99e8fe1027.png/eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzdWIiOiJqYXZhX2FwaV9jb250ZXVkb19uZXN0IiwiaWF0IjoxNTAxMjY5NDc5LCJleHAiOjI0NDczNDk0Nzl9.pHS0ftTRrtEtB-iUKKMaIJX8-6DutLn5zpalZYipC_upQIoCgWF165JeTcC5q568vH86zcoqOcs2CI6mmpfnMQ"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0001\t\b\u0002\u0000\u0000\u00001n\u0000\u0006\u0019IDATxkWV\u001es*%\u001103\u001ef&30`n&E00\u0004ۡx `bB*H9G\u0012*`S\u000e.0\tI#iF#ZR~Oc\u001dI\u0018Q RO{^^~,D\u001bb$I\u001cys\u001d#BpD}3w;sD)\u0010\u001c'\"\"\u001c3\u0001=.\u0004r)D\u0018Y%\u001f \"N\u0010s)\\SSyBg\u0018c\u0017\u0014c\u0017\u00021岉9\u0011B\bާ7DR\n˹s2\bS\b!\u00182B\bD\u000f>8\u001cYGI\u000eND\u001cB`f\"D^8...",
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0001\t\b\u0002\u0000\u0000\u00001n\u0000\u0006\u0019IDATxkWV\u001es*%\u001103\u001ef&30`n&E00\u0004ۡx `bB*H9G\u0012*`S\u000e.0\tI#iF#ZR~Oc\u001dI\u0018Q RO{^^~,D\u001bb$I\u001cys\u001d#BpD}3w;sD)\u0010\u001c'\"\"\u001c3\u0001=.\u0004r)D\u0018Y%\u001f \"N\u0010s)\\SSyBg\u0018c\u0017\u0014c\u0017\u00021岉9\u0011B\bާ7DR\n˹s2\bS\b!\u00182B\bD\u000f>8\u001cYGI\u000eND\u001cB`f\"D^8..."
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/918cf4a8ff0f2b3d947047759fe0de4413bb235c6c678ac4d7c83e807a0c48bad1a67377f76c5c4d0d5578a37e9646e3a7141da07b33ea890311a59c205256c1.png/{token}",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "image": 2
+    },
+    "mime_types": {
+      "image/png": 2
+    },
+    "examples": [
+      "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/918cf4a8ff0f2b3d947047759fe0de4413bb235c6c678ac4d7c83e807a0c48bad1a67377f76c5c4d0d5578a37e9646e3a7141da07b33ea890311a59c205256c1.png/eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzdWIiOiJqYXZhX2FwaV9jb250ZXVkb19uZXN0IiwiaWF0IjoxNTAxMjY5NDc5LCJleHAiOjI0NDczNDk0Nzl9.pHS0ftTRrtEtB-iUKKMaIJX8-6DutLn5zpalZYipC_upQIoCgWF165JeTcC5q568vH86zcoqOcs2CI6mmpfnMQ"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0001\t\b\u0002\u0000\u0000\u00001n\u0000\u0006PRIDATxT$r\u000b 3g\b2hCL2Qz0=xv2\u000bϑ=wI[;;]?@ ݣwx܏zKkJ\u001f}\u001f\u001f}RοnW2Jmuk?\u001eZzZ㸮8[.c~R?>Ǿmug/+m:ϯ9γ\u001e{~}8\u001f<\\g;~\u0013ڼx~/Z\u0017]W\u001f\u001f5Um~F=QhzJϷh?tw5k~Q>F7|~]6e>u׵豜]t}k:n|\u000f\u0000Z\u001fژ;A\u00176q<_zo\"~K...",
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0001\t\b\u0002\u0000\u0000\u00001n\u0000\u0006PRIDATxT$r\u000b 3g\b2hCL2Qz0=xv2\u000bϑ=wI[;;]?@ ݣwx܏zKkJ\u001f}\u001f\u001f}RοnW2Jmuk?\u001eZzZ㸮8[.c~R?>Ǿmug/+m:ϯ9γ\u001e{~}8\u001f<\\g;~\u0013ڼx~/Z\u0017]W\u001f\u001f5Um~F=QhzJϷh?tw5k~Q>F7|~]6e>u׵豜]t}k:n|\u000f\u0000Z\u001fژ;A\u00176q<_zo\"~K..."
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/acc87654af83d997499bb549c8aaeafef7ee29a0714ad9a767f6847d27361e424265ff839dc035dcf07a9f512d6532387b6e840ae2efa7076e06475a73639c62.png/{token}",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "image": 2
+    },
+    "mime_types": {
+      "image/png": 2
+    },
+    "examples": [
+      "https://conteudoava.unicesumar.edu.br/display/arquivo-banner-web/acc87654af83d997499bb549c8aaeafef7ee29a0714ad9a767f6847d27361e424265ff839dc035dcf07a9f512d6532387b6e840ae2efa7076e06475a73639c62.png/eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzdWIiOiJqYXZhX2FwaV9jb250ZXVkb19uZXN0IiwiaWF0IjoxNTAxMjY5NDc5LCJleHAiOjI0NDczNDk0Nzl9.pHS0ftTRrtEtB-iUKKMaIJX8-6DutLn5zpalZYipC_upQIoCgWF165JeTcC5q568vH86zcoqOcs2CI6mmpfnMQ"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0000g\b\u0002\u0000\u0000\u0000o\u0000\u0001EIDATxڌɒ$I-DdeuZ44ӄy\u0001y\u001a\u001c\u0017c<D8hЃ\bwEUq\u0010f\u0011\u0016Ul$\u0015\u0015Ezz\u0011\u0011\u001f\u0011D@\u0001\u0000Z~(&~*\u001c\u0011~(\tMH\u0005 %\u0010p\tф\u001c\u0011\u0019\u0004\u0019.B\u0006tB\u0001\u0004I\r]AI#K\u0003\u000e\b0ci#$t\f\u0019+qH0\u0000\u000b\u0019Ip\u0011#&\u0010tF\u0014/)W\u0010`\u001ea\u0011@\u000e\"\u0017`\u0004Eo??'{67\u00058\r@\u0007;z@\u0004\u0015\u0001~B\u0011\u0012̈+\tn+\"Æ...",
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0004\u0000\u0000\u0000g\b\u0002\u0000\u0000\u0000o\u0000\u0001EIDATxڌɒ$I-DdeuZ44ӄy\u0001y\u001a\u001c\u0017c<D8hЃ\bwEUq\u0010f\u0011\u0016Ul$\u0015\u0015Ezz\u0011\u0011\u001f\u0011D@\u0001\u0000Z~(&~*\u001c\u0011~(\tMH\u0005 %\u0010p\tф\u001c\u0011\u0019\u0004\u0019.B\u0006tB\u0001\u0004I\r]AI#K\u0003\u000e\b0ci#$t\f\u0019+qH0\u0000\u000b\u0019Ip\u0011#&\u0010tF\u0014/)W\u0010`\u001ea\u0011@\u000e\"\u0017`\u0004Eo??'{67\u00058\r@\u0007;z@\u0004\u0015\u0001~B\u0011\u0012̈+\tn+\"Æ..."
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://conteudoava.unicesumar.edu.br/display/arquivo-geral/f869cf0d69209ad57ae9d433d6a4c8e5cdf423aad34e5aa2bfc2541680f6c90847fdf124fdf592921f3b09faef622914802a31068d4d1cdb2e048773328db95b.jpg/{token}",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "image": 2
+    },
+    "mime_types": {
+      "image/png": 2
+    },
+    "examples": [
+      "https://conteudoava.unicesumar.edu.br/display/arquivo-geral/f869cf0d69209ad57ae9d433d6a4c8e5cdf423aad34e5aa2bfc2541680f6c90847fdf124fdf592921f3b09faef622914802a31068d4d1cdb2e048773328db95b.jpg/eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzdWIiOiJqYXZhX2FwaV9jb250ZXVkb19uZXN0IiwiaWF0IjoxNTAxMjY5NDc5LCJleHAiOjI0NDczNDk0Nzl9.pHS0ftTRrtEtB-iUKKMaIJX8-6DutLn5zpalZYipC_upQIoCgWF165JeTcC5q568vH86zcoqOcs2CI6mmpfnMQ"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0000\u0000\u0000\b\u0006\u0000\u0000\u0000X\u0000\u0000\u0000\u0001sRGB\u0000\u001c\u0000\u0000 \u0000IDATx^lWlu%2ozo*n\u0000\rn\u0010C\fɠF\u001f\fFH1\u0011Ҍ\u0014|̐@\u0011\u001a)Q\f5Ҁ$@\u0012\u0003 \u0000võCw?oʽ&73975^Ue瞽k;Cۍ\u0007e\u0001C/\u0017`8\u0000>\u001c\f1\u0018\fx0p\u0000\u000fX0\u001c\u000erɛk\u0001\\n.k\b[=g\\\u0003\f'\u001ax\u001f\u0000p7`\u0000\u0017\u0018?εP\u0017\tA}y\u001d%}}y\u0007p-\\nx{\u0003\u001f\\{\b\u001dr˧\u0018Ϳ\u000f\u001e\u0004#QQ...",
+      "PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u0000\u0000\u0000\u0000\b\u0006\u0000\u0000\u0000X\u0000\u0000\u0000\u0001sRGB\u0000\u001c\u0000\u0000 \u0000IDATx^lWlu%2ozo*n\u0000\rn\u0010C\fɠF\u001f\fFH1\u0011Ҍ\u0014|̐@\u0011\u001a)Q\f5Ҁ$@\u0012\u0003 \u0000võCw?oʽ&73975^Ue瞽k;Cۍ\u0007e\u0001C/\u0017`8\u0000>\u001c\f1\u0018\fx0p\u0000\u000fX0\u001c\u000erɛk\u0001\\n.k\b[=g\\\u0003\f'\u001ax\u001f\u0000p7`\u0000\u0017\u0018?εP\u0017\tA}y\u001d%}}y\u0007p-\\nx{\u0003\u001f\\{\b\u001dr˧\u0018Ϳ\u000f\u001e\u0004#QQ..."
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/filtro-comunicado",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/filtro-comunicado"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      []
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento/qtd-mensagens-nao-lidas",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento/qtd-mensagens-nao-lidas"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "situacao": "COMUNICADO",
+          "qtdMensagem": 5
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento?aba&mediador&novasPrimeiro&pageOffset&startIndex",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/atendimento-api-controller/api/atendimento?aba=AVISO&mediador=false&novasPrimeiro=true&pageOffset=7&startIndex=0"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "id": 5021782,
+          "nmDestinatario": "ELAINE IGNACIO MOREIRA",
+          "cdUsuario": null,
+          "ultimoTexto": "<p>Ol&aacute;, estudante!&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>J&aacute; pensou em estudar espanhol direto da Espanha, com despesas pagas?&nbsp;</p>\n\n<p>O <strong>Santander Top Espanha 2026</strong> vai levar 5 alunos para uma imers&atilde;o de 3 semanas na Universidade de Salamanca, uma das mais tradicionais da Europa.&nbsp;</p>\n\n<p>O programa inclui:&nbsp;</p>\n\n<ul>\n\t<li>Passagens a&eacute;reas.&nbsp;</li>\n\t<li>Hospedagem em resid&ecirc;ncia universit&aacute;ria.&nbsp;</li>\n\t<li>Tr&ecirc;s refei&ccedil;&otilde;es di&aacute;rias.&nbsp;</li>\n\t<li>Curso presencial de espanhol (do b&aacute;sico ao avan&ccedil;ado)&nbsp;</li>\n\t<li>Atividades culturais.&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>Inscri&ccedil;&otilde;es: </strong>02/02 a 12/04/2026.&nbsp;<br />\n<strong>Viagem: </strong>29/06 a 22/07/26.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;A inscri&ccedil;&atilde;o deve ser feita pela plataforma Santander Open Academy:&nbsp;<br />\n<br />\n<a href=\"https://app.santanderopenacademy.com/pt-BR/program/santander-top-espana-2026?utm_source=Unicesumar&amp;utm_medium=Divulgacao&amp;utm_campaign=SOABR-TopEspana2026-Vitru\" target=\"\">https://app.santanderopenacademy.com/pt-BR/program/santander-top-espana-2026?utm_source=Unicesumar&amp;utm_medium=Divulgacao&amp;utm_campaign=SOABR-TopEspana2026-Vitru</a><br />\n&nbsp;</p>\n\n<p>Confira os crit&eacute;rios no edital e n&atilde;o deixe essa oportunidade passar.</p>\n\n<p>&nbsp;</p>\n\n<p>&iexcl;Hasta luego, Brasil!&nbsp;</p>\n\n<p>&iexcl;Hola, Espa&ntilde;a!</p>\n",
+          "dtTexto": 1772110628180,
+          "nLida": 1,
+          "aba": "AVISO",
+          "finalizada": false,
+          "solicitaFinalizar": false,
+          "permiteResposta": false,
+          "server": null,
+          "nmUrlVideo": null,
+          "nrTempoVideoInicio": null,
+          "nrTempoVideoFim": null,
+          "ano": null,
+          "semestre": null,
+          "cdShortname": null,
+          "nmCategoria": "Santander Top Espanha 2026",
+          "nmConversaStatus": "Em andamento",
+          "flPriorizar": false
+        },
+        {
+          "id": 5018696,
+          "nmDestinatario": "ELAINE IGNACIO MOREIRA",
+          "cdUsuario": null,
+          "ultimoTexto": "<p>Ol&aacute;, estudante!&nbsp;</p>\n\n<p><strong>As inscri&ccedil;&otilde;es&nbsp;para MONITOR do Programa de Mentorias Ampliar est&atilde;o abertas.</strong></p>\n\n<p>O Programa Ampliar &eacute; um programa de monitoria acad&ecirc;mica, no qual <strong>estudantes atuam como monitores, auxiliando outros alunos em sua jornada de aprendizagem. </strong>Al&eacute;m de fortalecer o curr&iacute;culo e desenvolver habilidades como lideran&ccedil;a e comunica&ccedil;&atilde;o, o estudante selecionado conta com bolsa de estudos e horas complementares.&nbsp;</p>\n\n<p>Per&iacute;odo de inscri&ccedil;&atilde;o: 13 a 23 de fevereiro (PRORROGADO PARA 27/02)</p>\n\n<p>Inscreva-se pelo formul&aacute;rio: <a href=\"https://forms.gle/zJHX3RHnhWJob2Y96\">https://forms.gle/zJHX3RHnhWJob2Y96</a>&nbsp;</p>\n\n<p>&Eacute; fundamental ler atentamente todas as orienta&ccedil;&otilde;es e crit&eacute;rios descritos no Edital antes de realizar a inscri&ccedil;&atilde;o. O edital est&aacute; no link do formul&aacute;rio.&nbsp;</p>\n\n<p>Este formul&aacute;rio &eacute; exclusivamente para candidatos &agrave; fun&ccedil;&atilde;o de MONITOR no Programa Ampliar EAD - UNICESUMAR, conforme Edital n&ordm; 01/2026.</p>\n\n<p><strong>ATEN&Ccedil;&Atilde;O: </strong>N&atilde;o se trata de inscri&ccedil;&atilde;o para participar da monitoria, mas sim para dar monitoria.</p>\n\n<p>Se tiverem d&uacute;vidas, estou &agrave; disposi&ccedil;&atilde;o!</p>\n",
+          "dtTexto": 1772048829933,
+          "nLida": 1,
+          "aba": "AVISO",
+          "finalizada": false,
+          "solicitaFinalizar": false,
+          "permiteResposta": false,
+          "server": null,
+          "nmUrlVideo": null,
+          "nrTempoVideoInicio": null,
+          "nrTempoVideoFim": null,
+          "ano": null,
+          "semestre": null,
+          "cdShortname": null,
+          "nmCategoria": "Inscrição para MONITOR do Programa de Mentorias Ampliar",
+          "nmConversaStatus": "Em andamento",
+          "flPriorizar": false
+        },
+        {
+          "id": 5016460,
+          "nmDestinatario": "ELAINE IGNACIO MOREIRA",
+          "cdUsuario": null,
+          "ultimoTexto": "<p>Ol&aacute;!<br />\n&nbsp;</p>\n\n<p>Nesta disciplina de <strong>Mentalidade Criativa e Empreendedora,</strong> voc&ecirc;s ter&atilde;o <strong>prova presencial</strong> no polo.</p>\n\n<p>Muitos de voc&ecirc;s n&atilde;o tinham prova nas disciplinas anteriores, mas agora que est&atilde;o iniciando as disciplinas do segundo ano, a prova passa a ser obrigat&oacute;ria.</p>\n\n<p>&nbsp;</p>\n\n<p>O per&iacute;odo de agendamento e de realiza&ccedil;&atilde;o de prova &eacute; <strong>informado no calend&aacute;rio da disciplina</strong>, ao lado das aulas conceituais.</p>\n\n<p>&nbsp;</p>\n\n<p>S&oacute; &eacute; poss&iacute;vel agendar a prova quando o prazo estiver aberto.</p>\n\n<p>Para agendar sua prova, acesse conforme as orienta&ccedil;&otilde;es abaixo.</p>\n\n<p><strong>No navegador (computador):&nbsp;</strong>acesse o menu lateral AVALIA&Ccedil;&Atilde;O DIGITAL em seu Studeo para agendar.</p>\n\n<p><strong>No aplicativo (celular):&nbsp;</strong>Na tela inicial do seu aplicativo, vai aparecer a mensagem de agendamento, basta clicar para agendar o dia e hor&aacute;rio.</p>\n\n<p><em>Lembre-se:</em> s&oacute; &eacute; poss&iacute;vel agendar quando o prazo estiver aberto.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Informa&ccedil;&otilde;es sobre a prova:</strong></p>\n\n<ul>\n\t<li>No momento do agendamento, voc&ecirc; pode&nbsp;escolher o hor&aacute;rio e o dia da semana que ir&aacute; realizar a prova, considerando as datas dispon&iacute;veis no agendamento de provas.</li>\n\t<li>A prova vale at&eacute; 4.0 na m&eacute;dia da disciplina.</li>\n\t<li>O tempo para realiza&ccedil;&atilde;o &eacute; de 50 minutos.</li>\n\t<li>As provas s&atilde;o obrigat&oacute;rias.</li>\n\t<li>A prova &eacute; PRESENCIAL no polo.</li>\n\t<li>A prova &eacute; sem consulta.</li>\n\t<li>A prova &eacute; constitu&iacute;da de quest&otilde;es objetivas.</li>\n\t<li>As quest&otilde;es s&atilde;o elaboradas com base no livro da disciplina.&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>Ap&oacute;s gerar o agendamento, voc&ecirc; poder&aacute; editar ou cancelar o agendamento duas vezes, at&eacute; as 23h59&nbsp;do dia anterior ao hor&aacute;rio que foi agendado.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Para verificar como a nota dessa disciplina &eacute; constitu&iacute;da, acesse o mural de avisos, h&aacute; um banner com essas informa&ccedil;&otilde;es!</strong></p>\n\n<p>&nbsp;</p>\n\n<p>Bons estudos!</p>\n",
+          "dtTexto": 1772016246310,
+          "nLida": 1,
+          "aba": "AVISO",
+          "finalizada": false,
+          "solicitaFinalizar": false,
+          "permiteResposta": false,
+          "server": null,
+          "nmUrlVideo": null,
+          "nrTempoVideoInicio": null,
+          "nrTempoVideoFim": null,
+          "ano": null,
+          "semestre": null,
+          "cdShortname": null,
+          "nmCategoria": "Informações sobre PROVA",
+          "nmConversaStatus": "Em andamento",
+          "flPriorizar": false
+        },
+        {
+          "id": 5016016,
+          "nmDestinatario": "ELAINE IGNACIO MOREIRA",
+          "cdUsuario": null,
+          "ultimoTexto": "<p>Na primeira aula ao vivo da disciplina de Mentalidade Criativa e Empreendedora, o prof. Adriano citou um &quot;Teste de Perfil Empreendedor&quot;. Segue o link de acesso:&nbsp;<a href=\"https://adrianomga.github.io/teste-perfil-empreendedor/\">https://adrianomga.github.io/teste-perfil-empreendedor/</a></p>\n",
+          "dtTexto": 1771981711467,
+          "nLida": 0,
+          "aba": "AVISO",
+          "finalizada": false,
+          "solicitaFinalizar": false,
+          "permiteResposta": false,
+          "server": null,
+          "nmUrlVideo": null,
+          "nrTempoVideoInicio": null,
+          "nrTempoVideoFim": null,
+          "ano": null,
+          "semestre": null,
+          "cdShortname": null,
+          "nmCategoria": "Teste de Perfil Empreendedor",
+          "nmConversaStatus": "Em andamento",
+          "flPriorizar": false
+        },
+        {
+          "id": 5015985,
+          "nmDestinatario": "ELAINE IGNACIO MOREIRA",
+          "cdUsuario": null,
+          "ultimoTexto": "<p>Ol&aacute;!</p>\n\n<p>A<strong> Atividade de Estudo 1 </strong>da disciplina de <strong>Mentalidade Criativa e Empreendedora</strong> cita os &quot;conceitos apresentados na Unidade 2 do livro da disciplina&quot;.&nbsp;</p>\n\n<p>O livro em PDF est&aacute; dispon&iacute;vel no ambiente da disciplina, em &quot;MATERIAL DE ESTUDO&quot;, abaixo das aulas conceituais.&nbsp;</p>\n\n<p>Segue anexo um print de onde est&aacute; o livro.</p>\n\n<p>Se tiverem d&uacute;vidas, estou &agrave; disposi&ccedil;&atilde;o!</p>\n",
+          "dtTexto": 1771981426127,
+          "nLida": 0,
+          "aba": "AVISO",
+          "finalizada": false,
+          "solicitaFinalizar": false,
+          "permiteResposta": false,
+          "server": null,
+          "nmUrlVideo": null,
+          "nrTempoVideoInicio": null,
+          "nrTempoVideoFim": null,
+          "ano": null,
+          "semestre": null,
+          "cdShortname": null,
+          "nmCategoria": "Livro da disciplina e AE1",
+          "nmConversaStatus": "Em andamento",
+          "flPriorizar": false
+        },
+        {
+          "id": 5015936,
+          "nmDestinatario": "ELAINE IGNACIO MOREIRA",
+          "cdUsuario": null,
+          "ultimoTexto": "<p>Ol&aacute;, pessoal!</p>\n\n<p>&nbsp;</p>\n\n<p>Na nossa aula ao vivo de hoje, o <strong>prof. Adriano</strong> est&aacute; abordando o tema <strong>empreendedorismo</strong>, conte&uacute;do da <strong>Unidade 1</strong> do nosso livro da disciplina.</p>\n\n<p>&nbsp;</p>\n\n<p>A partir dessa aula, surgem algumas reflex&otilde;es importantes:</p>\n\n<p>&bull; <strong>Por que essa disciplina &eacute; importante para a minha &aacute;rea de TI?</strong><br />\n&bull; <strong>Como &eacute; poss&iacute;vel empreender na &aacute;rea de TI?</strong></p>\n\n<p>Para aprofundarmos essas quest&otilde;es, criei <strong>dois f&oacute;runs</strong> na <strong>Sala do Caf&eacute;</strong>, um espa&ccedil;o pensado para troca de ideias e reflex&otilde;es entre voc&ecirc;s.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>-&gt; F&oacute;rum 1</strong></p>\n\n<p><strong>Por que a disciplina <em>Mentalidade Criativa e Empreendedora</em> &eacute; importante para voc&ecirc;, estudante de TI?</strong></p>\n\n<p>Reflita sobre como a criatividade, a inova&ccedil;&atilde;o e a postura empreendedora podem impactar sua forma&ccedil;&atilde;o e sua atua&ccedil;&atilde;o profissional na &aacute;rea de tecnologia.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>-&gt; F&oacute;rum 2</strong></p>\n\n<p><strong>COMO EMPREENDER NA &Aacute;REA DE TI?</strong></p>\n\n<p>Neste segundo f&oacute;rum, deixei um <strong>desafio especial</strong> para voc&ecirc;s!</p>\n\n<p>Pensem em problemas reais que podem ser resolvidos com tecnologia e compartilhem com seus colegas nos coment&aacute;rios!</p>\n\n<p>Usem a criatividade, relacionem com a aula de hoje e com o conte&uacute;do do livro, e compartilhem suas ideias!</p>\n\n<p>&nbsp;</p>\n\n<p>Esses f&oacute;runs s&atilde;o espa&ccedil;os de aprendizado, troca e constru&ccedil;&atilde;o coletiva. Aproveitem para refletir, opinar e aprender com os colegas!</p>\n",
+          "dtTexto": 1771980722947,
+          "nLida": 0,
+          "aba": "AVISO",
+          "finalizada": false,
+          "solicitaFinalizar": false,
+          "permiteResposta": false,
+          "server": null,
+          "nmUrlVideo": null,
+          "nrTempoVideoInicio": null,
+          "nrTempoVideoFim": null,
+          "ano": null,
+          "semestre": null,
+          "cdShortname": null,
+          "nmCategoria": "Como empreender na área de TI?",
+          "nmConversaStatus": "Em andamento",
+          "flPriorizar": false
+        },
+        {
+          "id": 5014883,
+          "nmDestinatario": "ELAINE IGNACIO MOREIRA",
+          "cdUsuario": null,
+          "ultimoTexto": "<p>Ol&aacute;!</p>\n\n<p>Acompanhe-nos no Instagram!&nbsp;</p>\n\n<p>Siga nossa p&aacute;gina para se manter atualizado com as atividades do curso e para conhecer seus colegas e professores ainda melhor!</p>\n\n<p><strong>Compartilhe seus momentos de estudo conosco&nbsp;</strong>e nos marque em suas publica&ccedil;&otilde;es!<br />\n<br />\n<a href=\"https://www.instagram.com/adsunicesumar/\" target=\"\"><strong>Gradua&ccedil;&atilde;o em An&aacute;lise e Desenvolvimento de Sistemas</strong></a></p>\n\n<p><a href=\"https://www.instagram.com/sistemasparainternetunicesumar/\" target=\"\"><strong>Gradua&ccedil;&atilde;o em Sistemas para Internet&nbsp;</strong></a></p>\n\n<p><a href=\"https://www.instagram.com/gestaodatiunicesumar/\" target=\"\"><strong>Gradua&ccedil;&atilde;o em Gest&atilde;o da Tecnologia da Informa&ccedil;&atilde;o</strong></a></p>\n\n<p><a href=\"https://www.instagram.com/jogosdigitaisunicesumar/\" target=\"\"><strong>Gradua&ccedil;&atilde;o em&nbsp;Jogos Digitais</strong></a></p>\n\n<p><a href=\"https://www.instagram.com/devappunicesumar/\" target=\"\"><strong>Gradua&ccedil;&atilde;o em&nbsp;Desenvolvimento de Aplicativos M&oacute;veis</strong></a></p>\n\n<p><strong><a href=\"https://www.instagram.com/iamleadunicesumar/\" target=\"\">Gradua&ccedil;&atilde;o em Intelig&ecirc;ncia Artificial e Machine Learning</a></strong></p>\n",
+          "dtTexto": 1771973676743,
+          "nLida": 0,
+          "aba": "AVISO",
+          "finalizada": false,
+          "solicitaFinalizar": false,
+          "permiteResposta": false,
+          "server": null,
+          "nmUrlVideo": null,
+          "nrTempoVideoInicio": null,
+          "nrTempoVideoFim": null,
+          "ano": null,
+          "semestre": null,
+          "cdShortname": null,
+          "nmCategoria": "Instagram do curso",
+          "nmConversaStatus": "Em andamento",
+          "flPriorizar": false
+        }
+      ]
+    ]
+  },
+  {
+    "method": "GET",
+    "url": "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/matriculados",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/ambiente-api-controller/api/aluno/disciplina/matriculados"
+    ],
+    "req_payloads": [],
+    "res_payloads": [
+      [
+        {
+          "tpMatricula": "MATRICULADO",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 312376,
+          "nmDisciplina": "GIRO EAD",
+          "cdShortname": "MDL_AC_7158",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "7158",
+          "cdTurma": "7158",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "MATRICULADO",
+          "tpDetalhe": "Não curricular",
+          "idDisciplina": 617013,
+          "nmDisciplina": "PREPARE-SE - PROFISSÃO (ANÁLISE E DESENVOLVIMENTO DE SISTEMAS)",
+          "cdShortname": "MDL_AC_19885",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "19885",
+          "cdTurma": "19885",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Curricular",
+          "idDisciplina": 766981,
+          "nmDisciplina": "ANÁLISE E PROJETO ORIENTADO A OBJETOS",
+          "cdShortname": "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0026",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 51,
+          "cdDisciplina": "EGRAD_GRAD_080_0026",
+          "cdTurma": "26_EGRAD_ADSIS5E-51",
+          "flCurricular": true,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Curricular",
+          "idDisciplina": 770794,
+          "nmDisciplina": "MENTALIDADE CRIATIVA E EMPREENDEDORA",
+          "cdShortname": "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0523",
+          "flAtivo": true,
+          "dhLiberar": 1771844400000,
+          "ano": 2026,
+          "semestre": 51,
+          "cdDisciplina": "EGRAD_GRAD_080_0523",
+          "cdTurma": "26_EGRAD_ADSIS5E-51",
+          "flCurricular": true,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "MATRICULADO",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 788103,
+          "nmDisciplina": "AULA INAUGURAL 2026/51",
+          "cdShortname": "MDL_AC_26697",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26697",
+          "cdTurma": "26697",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 802026,
+          "nmDisciplina": "PROJETO DE ENSINO - PLÁGIO NÃO ROLA! SEJA O PROTAGONISTA DA SUA IDEIA (2) - 51/2026",
+          "cdShortname": "MDL_AC_26453",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26453",
+          "cdTurma": "26453",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 802053,
+          "nmDisciplina": "PROJETO DE ENSINO - CONSULTAS EM BASES DE DADOS UTILIZANDO LINGUAGEM SQL - 51/2026",
+          "cdShortname": "MDL_AC_26482",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26482",
+          "cdTurma": "26482",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        },
+        {
+          "tpMatricula": "Matriculado",
+          "tpDetalhe": "Nao curricular",
+          "idDisciplina": 802239,
+          "nmDisciplina": "PROJETO DE ENSINO - EXTRAÇÃO DE BANCO DE DADOS - 51/2026",
+          "cdShortname": "MDL_AC_26672",
+          "flAtivo": true,
+          "dhLiberar": null,
+          "ano": 2026,
+          "semestre": 99,
+          "cdDisciplina": "26672",
+          "cdTurma": "26672",
+          "flCurricular": false,
+          "flDestaque": false,
+          "flDigital": false
+        }
+      ]
+    ]
+  },
+  {
+    "method": "POST",
+    "url": "https://studeoapi.unicesumar.edu.br/objeto-ensino-api-controller/api/questionario/afazer/",
+    "calls": 2,
+    "statuses": {
+      "200": 2
+    },
+    "resource_types": {
+      "xhr": 2
+    },
+    "mime_types": {
+      "application/json": 2
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/objeto-ensino-api-controller/api/questionario/afazer/"
+    ],
+    "req_payloads": [
+      {
+        "cdShortname": [
+          "MDL_AC_7158",
+          "MDL_AC_19885",
+          "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0026",
+          "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0523",
+          "MDL_AC_26697",
+          "MDL_AC_26453",
+          "MDL_AC_26482",
+          "MDL_AC_26672"
+        ]
+      }
+    ],
+    "res_payloads": [
+      [
+        {
+          "somaAtividades": 2,
+          "proximaAtividade": 1773629999000,
+          "shortname": "2026_26_EGRAD_ADSIS5E-51_EGRAD_GRAD_080_0523"
+        },
+        {
+          "somaAtividades": 1,
+          "proximaAtividade": 1777258799000,
+          "shortname": "MDL_AC_26482"
+        },
+        {
+          "somaAtividades": 1,
+          "proximaAtividade": 1777258799000,
+          "shortname": "MDL_AC_26672"
+        },
+        {
+          "somaAtividades": 1,
+          "proximaAtividade": 1798772399000,
+          "shortname": "MDL_AC_7158"
+        }
+      ]
+    ]
+  },
+  {
+    "method": "POST",
+    "url": "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/revoke",
+    "calls": 1,
+    "statuses": {
+      "200": 1
+    },
+    "resource_types": {
+      "xhr": 1
+    },
+    "mime_types": {
+      "application/json": 1
+    },
+    "examples": [
+      "https://studeoapi.unicesumar.edu.br/auth-api-controller/auth/token/revoke"
+    ],
+    "req_payloads": [
+      {
+        "token": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNjQ1MjIsImlhdCI6MTc3MjE1MDEyMn0.IUS61VgZtrVC3t61rvztIwOu0D4V1bl0kTrQFA9R8DM4MHNIZz6HoNRLPtKDHVWqT96UaGbiYQbEabrAS4DZ6roHHUWakXjM2ktkScRhl8sX051jUvQM7k34MSDcW8Vpb74cR3OFtBF90rSSSKIZ8nhqj88T1eSEcl6gUa2f5QoeDkSuSpIIAMXJT3GhmP72eET_hX1IjCg4qoyHibEiLgLoYPNfyBJnbBiabOkek1x3c6--7NtcMkv3VGaNkOs_SLJoQuycGnNvc0GC7YgH7vfnjisj8JeCUTE7mXv1iaep8OrhwnkGFGRExG_5ijroV4hpMw8YOdv1RNhHGYGuWA",
+        "refreshToken": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTA1MDMyNS01IiwiZGF0Ijp7InJ1dCI6bnVsbCwiZGVmIjp7Ik5FU1QiOiJBTFVOTyJ9LCJ0cnMiOmZhbHNlLCJlbWwiOiJSQTI1MDUwMzI1NUBFQUQuQ0VTVU1BUi5CUiIsIml0ZyI6dHJ1ZSwicm9sIjp7Ik5FU1QiOlsiQUxVTk8iXX0sImVtZyI6IlJBMjUwNTAzMjU1QEVBRC5DRVNVTUFSLkJSIn0sImlzcyI6Ik5FU1QiLCJleHAiOjE3NzIxNzE3MjIsImlhdCI6MTc3MjE1MDEyMn0.LIjvrEb_ZIEJm7xH6GIro-LnyPcAa8EpF2P9AQraPlQ3jWcxH_I6tJJB9nhwYYJKoKCcYmkWvjAgKvRzuoOcXh2Nq2vGOylNgE8T-yKx2FZNEycJ7sfn_jF-L47LpMb27_GE5nqsHalQuz1hB1zUQwn4WxkDY3qPUUQQRiMhQaVRj5QWyjoB2NJG1BJfKC4lUhf9MjZ-4fyVO5EO-EU7oO-CMTIsrbYHX341GOgQ0sB-94JOPBJloNBjebtM8KPKD0aX-p_9vN1aJ872xKKls6n6s3Tlbg63ojZJaopqDfAlmP3TErx3KiM02yCCAupbEDtWkLOaj_jLLAhA5RhV2Q"
+      }
+    ],
+    "res_payloads": []
+  }
+]

@@ -1,6 +1,31 @@
-# Ignorar o arquivo de variáveis de ambiente
+# Variáveis de ambiente
 .env
 
-# Ignorar arquivos de cache do Python
+# Cache do Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Dados locais
+data/
+*.db
+
+# Credenciais
+credentials/
+
+# Virtual environment
+.venv/
+venv/
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
