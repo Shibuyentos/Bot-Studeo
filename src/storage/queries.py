@@ -1,5 +1,8 @@
 # src/storage/queries.py — Queries reutilizáveis e detecção de mudanças
 
+# ÍNDICE DE FUNÇÕES
+# get_recent_changes(hours)  → novidades das últimas N horas (usado pelo /novidades)
+
 from __future__ import annotations
 
 import logging
@@ -298,6 +301,64 @@ def get_recent_announcements(limit: int = 10,
         (limit,),
     ).fetchall()
     return [dict(row) for row in rows]
+
+
+def get_recent_changes(hours: int = 24,
+                       conn: sqlite3.Connection | None = None) -> dict:
+    """Busca novidades das últimas N horas nas 3 tabelas principais.
+
+    Returns:
+        dict com chaves:
+            - new_deadlines:     list[dict] — prazos descobertos recentemente
+            - new_grades:        list[dict] — notas descobertas recentemente
+            - new_announcements: list[dict] — avisos descobertos recentemente
+            - since_label:       str        — label legível (ex: "últimas 24h")
+    """
+    c = conn or get_connection()
+    window = f"-{hours} hours"
+
+    # Novos prazos descobertos
+    deadline_rows = c.execute(
+        """
+        SELECT d.*, disc.name as discipline_name
+        FROM deadlines d
+        JOIN disciplines disc ON d.discipline_id = disc.id
+        WHERE d.discovered_at >= datetime('now', ?)
+        ORDER BY d.due_date ASC
+        """,
+        (window,),
+    ).fetchall()
+
+    # Novas notas descobertas
+    grade_rows = c.execute(
+        """
+        SELECT g.*, disc.name as discipline_name
+        FROM grades g
+        JOIN disciplines disc ON g.discipline_id = disc.id
+        WHERE g.discovered_at >= datetime('now', ?)
+        ORDER BY g.discovered_at DESC
+        """,
+        (window,),
+    ).fetchall()
+
+    # Novos avisos descobertos
+    ann_rows = c.execute(
+        """
+        SELECT * FROM announcements
+        WHERE discovered_at >= datetime('now', ?)
+        ORDER BY sent_at DESC
+        """,
+        (window,),
+    ).fetchall()
+
+    label = "última hora" if hours == 1 else f"últimas {hours}h"
+
+    return {
+        "new_deadlines": [dict(r) for r in deadline_rows],
+        "new_grades": [dict(r) for r in grade_rows],
+        "new_announcements": [dict(r) for r in ann_rows],
+        "since_label": label,
+    }
 
 
 # ── Detecção de Mudanças (orquestração) ─────────────────────────────────
