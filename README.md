@@ -88,9 +88,5 @@ bot-studeo/
 └── data/               # Banco SQLite + materiais (gitignored)
 ```
 
-## Por que construí isso
-
-Estudante de ADS na Unicesumar EAD. O Studeo não tem alertas decentes — prazos se perdem, notas saem sem aviso, materiais ficam espalhados. Este bot resolve tudo isso: coleta dados automaticamente, detecta novidades e me avisa no Telegram.
-
 Feito de ❤️ neste mundo caótico
 ##### Ass: Kauann Shibuya
