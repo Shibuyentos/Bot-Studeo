@@ -51,8 +51,11 @@ def main() -> None:
         logger.info("Bot Telegram desativado (token não configurado)")
 
     # 4. Executar primeiro scrape imediato
+    # Nota: não passamos o telegram_app aqui pois o run_polling ainda não
+    # iniciou seu event loop — passar o app causaria RuntimeError de loop fechado.
+    # As notificações funcionam normalmente a partir do segundo ciclo (scheduler).
     logger.info("Executando primeiro scrape...")
-    run_scrape(telegram_app)
+    run_scrape()
 
     # 5. Iniciar scheduler
     scheduler = create_scheduler(telegram_app)

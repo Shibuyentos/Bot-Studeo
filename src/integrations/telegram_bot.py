@@ -18,6 +18,7 @@ from src.storage.queries import (
     detect_and_save_changes,
     get_all_grades,
     get_recent_announcements,
+    get_recent_changes,
     get_upcoming_deadlines,
 )
 
@@ -391,6 +392,55 @@ async def cmd_materiais(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     await update.message.reply_text("\n".join(lines), parse_mode="Markdown")
 
 
+async def cmd_novidades(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Comando /novidades — mostra o que apareceu nas últimas 24h."""
+    # Aceita argumento opcional: /novidades 48 (últimas 48h)
+    hours = 24
+    if context.args:
+        try:
+            hours = max(1, min(int(context.args[0]), 168))  # entre 1h e 7 dias
+        except ValueError:
+            pass
+
+    changes = get_recent_changes(hours=hours)
+    label = changes["since_label"]
+    new_deadlines = changes["new_deadlines"]
+    new_grades = changes["new_grades"]
+    new_announcements = changes["new_announcements"]
+
+    total = len(new_deadlines) + len(new_grades) + len(new_announcements)
+
+    if total == 0:
+        await update.message.reply_text(
+            f"✅ Nenhuma novidade nas {label}!\n"
+            "_Use /atualizar para forçar um scrape agora._",
+            parse_mode="Markdown",
+        )
+        return
+
+    lines = [f"🔔 *Novidades — {label}* ({total} item(s))\n"]
+
+    if new_deadlines:
+        lines.append(f"📅 *Novos Prazos ({len(new_deadlines)}):*")
+        for dl in new_deadlines:
+            lines.append(format_deadline_message(dl))
+        lines.append("")
+
+    if new_grades:
+        lines.append(f"📊 *Novas Notas ({len(new_grades)}):*")
+        for g in new_grades:
+            lines.append(format_grade_message(g))
+        lines.append("")
+
+    if new_announcements:
+        lines.append(f"📢 *Novos Avisos ({len(new_announcements)}):*")
+        for ann in new_announcements:
+            lines.append(format_announcement_message(ann))
+        lines.append("")
+
+    await update.message.reply_text("\n".join(lines), parse_mode="Markdown")
+
+
 async def cmd_ajuda(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Comando /ajuda — lista todos os comandos disponíveis."""
     msg = (
@@ -399,6 +449,7 @@ async def cmd_ajuda(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "/prazos — Prazos pendentes com countdown\n"
         "/notas — Suas notas mais recentes\n"
         "/avisos — Avisos/comunicados recentes\n"
+        "/novidades — O que apareceu nas últimas 24h (use /novidades 48 para 48h)\n"
         "/materiais — Materiais e PDFs das disciplinas\n"
         "/status — Resumo geral (disciplinas, média, último scrape)\n"
         "/atualizar — Força um scrape imediato\n"
@@ -442,11 +493,12 @@ def create_telegram_app() -> Application | None:
     app.add_handler(CommandHandler("prazos", cmd_prazos))
     app.add_handler(CommandHandler("notas", cmd_notas))
     app.add_handler(CommandHandler("avisos", cmd_avisos))
+    app.add_handler(CommandHandler("novidades", cmd_novidades))
     app.add_handler(CommandHandler("painel", cmd_painel))
     app.add_handler(CommandHandler("materiais", cmd_materiais))
     app.add_handler(CommandHandler("status", cmd_status))
     app.add_handler(CommandHandler("atualizar", cmd_atualizar))
     app.add_handler(CommandHandler("ajuda", cmd_ajuda))
 
-    logger.info("Bot Telegram configurado com %d comandos", 9)
+    logger.info("Bot Telegram configurado com %d comandos", 10)
     return app

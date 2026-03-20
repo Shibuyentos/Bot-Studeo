@@ -62,15 +62,7 @@ def run_scrape(telegram_app=None) -> None:
             # 4. Notificar via Telegram
             if telegram_app and report.has_changes:
                 from src.integrations.telegram_bot import notify_changes
-                try:
-                    asyncio.get_event_loop().run_until_complete(
-                        notify_changes(telegram_app, report)
-                    )
-                except RuntimeError:
-                    # Se já está dentro de um event loop
-                    loop = asyncio.new_event_loop()
-                    loop.run_until_complete(notify_changes(telegram_app, report))
-                    loop.close()
+                asyncio.run(notify_changes(telegram_app, report))
 
             log_scrape_end(log_id, status="success", items_found=total_items)
             logger.info("═══ Scrape concluído: %d itens, %d mudanças ═══",
@@ -98,16 +90,7 @@ def check_upcoming_deadlines(telegram_app=None) -> None:
         deadlines = get_upcoming_deadlines(days=days, only_unnotified=True)
         if deadlines and telegram_app:
             from src.integrations.telegram_bot import notify_upcoming_deadlines
-            try:
-                asyncio.get_event_loop().run_until_complete(
-                    notify_upcoming_deadlines(telegram_app, deadlines)
-                )
-            except RuntimeError:
-                loop = asyncio.new_event_loop()
-                loop.run_until_complete(
-                    notify_upcoming_deadlines(telegram_app, deadlines)
-                )
-                loop.close()
+            asyncio.run(notify_upcoming_deadlines(telegram_app, deadlines))
 
             # Marcar prazos como notificados para não repetir
             for dl in deadlines:

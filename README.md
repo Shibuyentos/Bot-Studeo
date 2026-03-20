@@ -1,19 +1,19 @@
-# 🎓 Bot-Studeo
+# Bot-Studeo
 
-> Automação acadêmica para o Studeo (Unicesumar EAD)
-> — Prazos, notas, materiais e notificações no piloto automático.
+> Automação acadêmica para o Studeo (Sistema EAD da Unicesumar)
+> — Prazos, notas, materiais e notificações no automatizados.
 
-## ✨ Features
+## Features
 
-- 📡 **Scraper HTTP** — Coleta dados do Studeo via chamadas diretas (httpx), sem Selenium
-- 📅 **Atividades pendentes** — Extrai prazos, MAPAs, fóruns e provas
-- 📊 **Notas** — Monitora notas com cálculo de média ponderada
-- 🔔 **Detecção de mudanças** — Identifica novidades a cada scrape
-- 🤖 **Bot Telegram** — Notificações push + comandos `/prazos`, `/notas`, `/status`
-- ⏰ **Scheduler** — Scraping automático a cada 6h (configurável)
-- 🗄️ **SQLite** — Histórico persistente de todas as coletas
+- **Scraper HTTP** — Coleta dados do Studeo via chamadas diretas (httpx), sem Selenium
+- **Atividades pendentes** — Extrai prazos, MAPAs, fóruns e provas
+- **Notas** — Monitora notas com cálculo de média ponderada
+- **Detecção de mudanças** — Identifica novidades a cada scrape
+- **Bot Telegram** — Notificações push + comandos `/prazos`, `/notas`, `/status`
+- **Scheduler** — Scraping automático a cada 6h (configurável)
+- **SQLite** — Histórico persistente de todas as coletas
 
-## 🏗 Arquitetura
+## Arquitetura
 
 ```
 ┌─────────────────────────────────────────┐
@@ -25,7 +25,7 @@
 └─────────────────────────────────────────┘
 ```
 
-## 🚀 Como usar
+## Como usar
 
 ### 1. Clonar e instalar
 
@@ -54,7 +54,7 @@ python -m src.main
 docker-compose up -d
 ```
 
-## 🛠 Stack
+## Stack
 
 | Componente | Tecnologia |
 |-----------|-----------|
@@ -66,7 +66,7 @@ docker-compose up -d
 | Config | pydantic-settings |
 | Testes | pytest |
 
-## 🧪 Testes
+## Testes
 
 ```bash
 pytest tests/ -v
@@ -88,12 +88,5 @@ bot-studeo/
 └── data/               # Banco SQLite + materiais (gitignored)
 ```
 
-## 📖 Por que construí isso
-
-Estudante de ADS na Unicesumar EAD. O Studeo não tem alertas decentes — prazos se perdem, notas saem sem aviso, materiais ficam espalhados. Este bot resolve tudo isso: coleta dados automaticamente, detecta novidades e me avisa no Telegram.
-
-Projeto genuíno, problema real, solução funcional.
-
-## 📄 License
-
-MIT
+Feito de ❤️ neste mundo caótico
+##### Ass: Kauann Shibuya
